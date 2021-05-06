@@ -1,7 +1,10 @@
+
 import React from 'react';
+import { Row, Col } from "reactstrap";
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
+import './Button.css';
+import myPdf from '../images/CV-ILIESI_ALEXANDRU.pdf';
 
 function HeroSection() {
   return (
@@ -9,13 +12,20 @@ function HeroSection() {
       <h1>Hello, I'm Alex</h1>
       <p>Software developer</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-         Download Resume
-        </Button>
+         <Row>
+            {/* off set will middle the col */}
+            <Col md={{ size: 8, offset: 2 }}>
+              <div >
+                <a
+                  download={myPdf}
+                  href={myPdf}
+                  className="btn btn--outline btn--medium"
+                >
+                  Download Resume
+                </a>
+              </div>
+            </Col>
+          </Row>
       </div>
     </div>
   );

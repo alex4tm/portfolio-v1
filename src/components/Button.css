@@ -38,7 +38,7 @@
 .btn--medium:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  color: #242424;
+  color: rgb(214 152 186);
   transition: 250ms;
   opacity: 0.9;
 }

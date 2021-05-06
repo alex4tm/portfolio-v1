@@ -30,7 +30,7 @@
 }
 
 .navbar-logo:hover .fa-laptop-code{
-    color: lightgreen;
+    color: rgb(214 152 186);
     transition: 0.5s;
     transform: rotateY(180deg);
 }
@@ -65,7 +65,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid lightgreen;
+  border-bottom: 4px solid rgb(214 152 186);
   transition: all 0.2s ease-out;
 }
 
