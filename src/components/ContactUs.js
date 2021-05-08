@@ -36,8 +36,8 @@ export default function ContactUs() {
                         </div>
                         <div className="submit-btn" id="submit-btn">
                             <input type="submit" className="btn--outline" value="Send Message"></input>
-                            <p id="email-sent"></p>
                         </div>
+                        <p id="email-sent"></p>
                     </div>
                 </form>
             </div>
