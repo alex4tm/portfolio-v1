@@ -19,7 +19,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: var(--primary);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -30,9 +30,9 @@
 }
 
 .navbar-logo:hover .fa-laptop-code{
-    color: rgb(214 152 186);
-    transition: 0.5s;
-    transform: rotateY(180deg);
+  color: var(--secondary);
+  transition: 0.7s;
+  transform: scale(1.2) rotateY(360deg);
 }
 
 .fa-laptop-code {

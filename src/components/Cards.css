@@ -5,6 +5,7 @@
 
 h1 {
   text-align: center;
+  color: var(--secondary);
 }
 
 .cards__container {
@@ -65,8 +66,8 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
+  color: var(--primary);
+  background-color: darkgray;
   box-sizing: border-box;
 }
 

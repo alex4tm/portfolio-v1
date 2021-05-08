@@ -1,0 +1,31 @@
+.contact-container {
+  background-color: #242424;
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+}
+.contact-wrapper {
+  max-width: 1000px;
+}
+
+.contact-wrapper input, textarea {
+  min-width: 100%
+}
+
+.contact-field {
+  max-width: 600px;
+  padding: 10px;
+  min-width: 375px;
+}
+
+.contact-field {
+  max-width: 500px
+}
