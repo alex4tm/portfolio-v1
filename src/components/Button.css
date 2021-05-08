@@ -37,10 +37,13 @@
 }
 
 .btn--large:hover,
-.btn--medium:hover {
-  transition: all 0.3s ease-out;
+.btn--medium:hover,
+.btn:hover,
+.btn--outline:hover,
+.btn--primary:hover {
+  transition: all 0.2s ease-out;
   background: var(--primary);
   color: var(--secondary);
-  transition: 250ms;
   opacity: 0.9;
+  transform: scale(1.03);
 }
