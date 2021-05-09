@@ -6,7 +6,7 @@ import img2 from '../images/img-2.jpg'
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className='cards'  id='projects'>
       <h1>Check out some of my projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>

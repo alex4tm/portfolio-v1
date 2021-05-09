@@ -29,7 +29,7 @@
   align-items: center;
 }
 
-.navbar-logo:hover .fa-laptop-code{
+.navbar-logo:hover .fa-laptop-code {
   color: var(--secondary);
   transition: 0.7s;
   transform: scale(1.2) rotateY(360deg);

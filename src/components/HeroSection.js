@@ -8,7 +8,7 @@ import myPdf from '../images/CV-ILIESI_ALEXANDRU.pdf';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id='home'>
       <h1>Hello, I'm Alex</h1>
       <p>Software developer</p>
       <div className='hero-btns'>

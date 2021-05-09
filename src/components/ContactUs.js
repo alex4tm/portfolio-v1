@@ -18,7 +18,7 @@ export default function ContactUs() {
 
     return(
         <div>
-            <div className="contact-container">
+            <div className="contact-container" id="contact">
             <form onSubmit={sendEmail}>
                     <h2>Get in touch</h2>
                     <div className="contact-wrapper">

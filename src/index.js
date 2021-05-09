@@ -11,15 +11,14 @@ const mainNav = document.querySelector(".navbar");
 const home = document.querySelector(".hero-btns");
 const navHome = document.querySelector(".nav-home");
 
-const projects = document.querySelector(".cards");
+const projects = document.querySelector(".cards__container");
 const navProjects = document.querySelector(".nav-projects");
 
 const contact = document.querySelector(".contact-container");
 const navContact = document.querySelector(".nav-contact");
 
 const sectionOneOptions = {
-  rootMargin: "300px 0px 0px 0px",
-  threshold: 0.9
+  rootMargin: "-180px"
 };
 
 const homeObserver = new IntersectionObserver(function(
@@ -68,5 +67,5 @@ sectionOneOptions);
 
 
 homeObserver.observe(home);
-contactObserver.observe(contact);
 projectsObserver.observe(projects);
+contactObserver.observe(contact);
