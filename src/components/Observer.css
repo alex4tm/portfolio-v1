@@ -1,0 +1,11 @@
+.active {
+  border-bottom: 4px solid rgb(214 152 186);
+  transition: all 0.2s ease-out;
+}
+
+
+.nav-scrolled {
+  background: linear-gradient(90deg, rgb(33, 33, 33) 0%,
+   rgb(45, 45, 45) 100%);
+  opacity: 0.95;
+}
