@@ -13,7 +13,6 @@ function HeroSection() {
       <p>Software developer</p>
       <div className='hero-btns'>
          <Row>
-            {/* off set will middle the col */}
             <Col md={{ size: 8, offset: 2 }}>
               <div >
                 <a
