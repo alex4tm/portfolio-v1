@@ -36,3 +36,9 @@
     flex-direction: column;
   }
 }
+
+.skills-photo {
+    background: url(../images/skills.jpg) center center/contain no-repeat;
+    height: 80px;
+    width: 100%;
+}

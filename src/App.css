@@ -1,3 +1,9 @@
+:root {
+  scroll-padding-top: 60px;
+  scroll-behavior: smooth;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;

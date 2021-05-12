@@ -20,7 +20,7 @@ export default function ContactUs() {
         <div>
             <div className="contact-container" id="contact">
             <form onSubmit={sendEmail}>
-                    <h2>Get in touch</h2>
+                    <h1>Get in touch</h1>
                     <div className="contact-wrapper">
                         <div className="contact-field">
                             <input type="text" className="contact-input" placeholder="Name" name="name" required />
