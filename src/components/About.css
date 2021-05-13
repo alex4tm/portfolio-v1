@@ -12,12 +12,41 @@
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .about-content {
   display: flex;
   align-items: center;
   align-content: center;
+  line-height: 1.5rem;
+}
+
+.about-info h3 {
+    border-bottom: 3px ridge var(--secondary);
+    line-height: 2rem;
+}
+
+.about-info ul:last-child {
+    border-bottom: 2px ridge var(--secondary);
+}
+
+
+
+.about-info {
+  margin-left: 50px;
+}
+
+.about-info p, li {
+  margin-left: 20px;
+}
+
+.about-content p {
+  font-weight: 400;
+}
+
+.about-info ul {
+  list-style: none;
 }
 
 .photo {
@@ -30,6 +59,39 @@
     margin: 15px;
 }
 
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about-skills h2 {
+  margin-bottom: 3rem;
+  color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.about-skills .colored {
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+.colored:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+i[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: -30%;
+  left: 10%;
+  font-size: 1rem;
+
+}
 
 @media only screen and (max-width: 1024px) {
   .about-content {

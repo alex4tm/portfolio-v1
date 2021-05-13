@@ -8,11 +8,13 @@ function About() {
       <div className="about-content">
         <div className="photo"></div>
         <div className="about-info">
-          <p></p>
-          <ul> Some random facts about me:
-            <li>Lived and worked in the UAE for the last 10 years. Was lucky enough to get payed and visit the world (more than 70 countries)</li>
-            <li>When i was 12 years old i built a command prompt exec (that was copying in the background some windows folders until the HDD was full) and shared with with 6 of my neighbours on our building network as a prank. I helped them all fix it and had a good laught about it :)</li>
-            <li>I love playing chess, 3 minute and 10 minute time controls-- alex4tm on chess.com :)</li>
+           <h3>I enjoy front-end development making projects look beautiful, but also gets a kick out of back-end development and what happens under the hood.</h3>
+             <p> I’m naturally curious and enjoy figuring out how things work. I love building web applications and coming up with new ways of saving time our daily tasks.
+              I’ve built web applications using Ruby on Rails, Node.js and React and have a strong foundation in web design and development.
+            </p>
+          <ul>
+            <li>Lived and worked in the UAE for the last 10 years. Was lucky enough to get payed and visit the world</li>
+            <li>I love playing chess, 3 and 10 minutes time control and puzzles. </li>
           </ul>
         </div>
       </div>
@@ -20,7 +22,23 @@ function About() {
         <h2>
           Skills and tools i used in my projects
         </h2>
-        <div className="skills-photo" href="../images/skills.jpg">
+        <div className="skills-icons">
+          <i className="devicon-rails-plain colored" title="Rails"></i>
+          <i className="devicon-ruby-plain-wordmark colored" title="Ruby"></i>
+          <i className="devicon-react-plain-wordmark colored" title="React"></i>
+          <i className="devicon-redux-original colored" title="Redux"></i>
+          <i className="devicon-javascript-plain colored" title="JavaScript"></i>
+          <i className="devicon-nodejs-plain colored" title="Node.js"></i>
+          <i className="devicon-html5-plain-wordmark colored" title="HTML5"></i>
+          <i className="devicon-css3-plain-wordmark colored" title="css3"></i>
+          <i className="devicon-sass-original colored" title="Sass"></i>
+          <i className="devicon-mysql-plain colored" title="MYSQL"></i>
+          <i className="devicon-postgresql-plain-wordmark colored" title="Postgresql"></i>
+          <i className="devicon-bootstrap-plain-wordmark colored" title="Bootstrap"></i>
+          <i className="devicon-heroku-plain-wordmark colored" title="Heroku"></i>
+          <i className="devicon-git-plain colored" title="Git"></i>
+          <i className="devicon-trello-plain colored" title="Trello"></i>
+          <i className="devicon-figma-plain colored" title="Figma"></i>
         </div>
       </div>
     </div>
