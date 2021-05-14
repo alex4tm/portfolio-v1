@@ -35,6 +35,7 @@ export default function ContactUs() {
                             <textarea className="contact-input" cols="30" rows="4" placeholder="Your message" name="message" required ></textarea>
                         </div>
                         <div className="submit-btn" id="submit-btn">
+                            <i className="far fa-paper-plane"></i>
                             <input type="submit" className="btn--outline" value="Send Message"></input>
                         </div>
                         <p id="email-sent"></p>

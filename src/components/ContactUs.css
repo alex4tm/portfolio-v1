@@ -41,9 +41,31 @@
   padding: 10px;
 }
 
+#submit-btn input {
+  color: var(--secondary);
+}
+
+.submit-btn {
+  position: relative;
+}
+
+.submit-btn i {
+  position: absolute;
+  left: 75%;
+  top: 35%;
+  color: var(--secondary);
+}
+
 #submit-btn input:hover {
   color: var(--secondary);
   transition: 0.2s;
   transform: scale(1.05);
   cursor: pointer;
+}
+
+#submit-btn:hover i {
+  color: var(--secondary);
+  z-index: 100;
+  transform: scale(1.1);
+
 }

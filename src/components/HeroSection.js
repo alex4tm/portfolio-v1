@@ -21,7 +21,7 @@ function HeroSection() {
                   className="btn btn--outline btn--medium"
                 >
                   Download Resume
-                <i class="far fa-arrow-alt-circle-down"></i>
+                <i className="far fa-arrow-alt-circle-down"></i>
                 </a>
               </div>
             </Col>
