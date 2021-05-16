@@ -1,20 +1,31 @@
 .cards {
-  padding: 4rem;
-  background: #fff;
+  background: url('../images/dots.svg') center center/cover no-repeat;
+
+  box-shadow: inset 0 0 0 1700px rgba(59, 156, 156, 0.5);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 4444px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
-h1 {
+.cards h1 {
   text-align: center;
   color: var(--secondary);
+  margin: 40px 0;
 }
 
 .cards__container {
+  border-radius: 1rem;
   display: flex;
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  background: linear-gradient(to right bottom, #bde8ef, rgb(126 177 172 / 95%), rgb(101 142 144 / 95%), rgb(164 204 208 / 90%), rgb(78 113 115 / 90%), rgb(86 135 140 / 85%), rgb(12 80 90 / 80%) );
 }
 
 .cards__wrapper {
