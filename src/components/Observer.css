@@ -1,5 +1,5 @@
 .active {
-  border-bottom: 4px solid rgb(214 152 186);
+  border-bottom: 4px solid var(--secondary);
   transition: all 0.2s ease-out;
 }
 

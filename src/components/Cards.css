@@ -25,6 +25,7 @@
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 20px;
   background: linear-gradient(to right bottom, #bde8ef, rgb(126 177 172 / 95%), rgb(101 142 144 / 95%), rgb(164 204 208 / 90%), rgb(78 113 115 / 90%), rgb(86 135 140 / 85%), rgb(12 80 90 / 80%) );
 }
 
@@ -48,7 +49,7 @@
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  box-shadow: -3px 18px 20px 0px rgba(99,89,99,1);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;

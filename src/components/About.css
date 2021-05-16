@@ -1,6 +1,7 @@
 
 #about h1 {
   margin: 20px 30px;
+  color: var(--primary);
 }
 
 .about-container {

@@ -27,17 +27,20 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  text-shadow: 1px 1px #25434a;
 }
 
 .navbar-logo:hover .fa-laptop-code {
-  color: var(--secondary);
+  color: #cdecf3;
   transition: 0.7s;
   transform: scale(1.2) rotateY(360deg);
+  text-shadow: none;
 }
 
 .fa-laptop-code {
   margin-left: 0.5rem;
   font-size: 1.8rem;
+  text-shadow: none;
 }
 
 .nav-menu {
@@ -62,10 +65,11 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  text-shadow: 1px 1px #25434a;
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid var(--secondary);
+  border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
 }
 

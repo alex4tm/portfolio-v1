@@ -16,6 +16,7 @@
   color: #fff;
   font-size: 65px;
   margin-top: -100px;
+  text-shadow: 2px 2px #15131496;
 }
 
 .hero-container > p {
@@ -24,6 +25,7 @@
   font-size: 32px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 2px #15131496;
 }
 
 .hero-btns {
