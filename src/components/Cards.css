@@ -57,20 +57,6 @@ h1 {
   animation-duration: 2s;
 }
 
-.cards__item__pic-wrap::after {
-  content: attr(data-category);
-  position: absolute;
-  bottom: 0;
-  margin-left: 10px;
-  padding: 6px 8px;
-  max-width: calc((100%) - 60px);
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--primary);
-  background-color: darkgray;
-  box-sizing: border-box;
-}
-
 .cards__item__img {
   position: absolute;
   top: 0;

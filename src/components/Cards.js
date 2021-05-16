@@ -1,8 +1,8 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import img1 from '../images/img-1.jpg'
-import img2 from '../images/img-2.jpg'
+import img1 from '../images/Prism.svg'
+import img2 from '../images/Prism-blue.svg'
 
 function Cards() {
   return (
@@ -14,13 +14,11 @@ function Cards() {
             <CardItem
               src={img1}
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
               path='/projects'
             />
             <CardItem
               src={img2}
               text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury react rails'
               path='/projects'
             />
           </ul>
