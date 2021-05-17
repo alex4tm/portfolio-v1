@@ -6,15 +6,14 @@ function About() {
     <div className="about-container" id='about'>
       <h1>A bit about me</h1>
       <div className="about-content">
-        <div className="photo"></div>
         <div className="about-info">
            <h3>I enjoy front-end development making projects look beautiful, but also gets a kick out of back-end development and what happens under the hood.</h3>
              <p> I’m naturally curious and enjoy figuring out how things work. I love building web applications and coming up with new ways of saving time our daily tasks.
               I’ve built web applications using Ruby on Rails, Node.js and React and have a strong foundation in web design and development.
             </p>
           <ul>
-            <li>Lived and worked in the UAE for the last 10 years. Was lucky enough to get payed and visit the world 😊. </li>
-            <li>I love playing chess, 3 and 10 minutes time control and puzzles. </li>
+            <li>Lived and worked in the UAE for the last 10 years. Was lucky enough to get payed and visit 70 countries 😊.</li>
+            <li>I love playing chess, 3 and 10 minutes time control and puzzles.</li>
           </ul>
         </div>
       </div>

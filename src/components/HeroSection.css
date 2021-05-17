@@ -10,6 +10,7 @@
   align-items: center;
   box-shadow: inset 0 0 0 1700px rgb(40 136 146 / 50%);
   object-fit: contain;
+  word-spacing: 0.2rem;
 }
 
 .hero-container > h1 {

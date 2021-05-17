@@ -8,6 +8,9 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.05rem;
+
 }
 
 .navbar-container {
