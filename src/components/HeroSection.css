@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1700px rgba(59, 156, 156, 0.5);
+  box-shadow: inset 0 0 0 1700px rgb(40 136 146 / 50%);
   object-fit: contain;
 }
 
