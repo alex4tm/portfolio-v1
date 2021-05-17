@@ -60,6 +60,7 @@
 
 .cards__item__pic-wrap {
   position: relative;
+  min-width: 85%;
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
@@ -91,6 +92,10 @@
 
 .cards__item__info {
   padding: 20px 30px 30px;
+  min-height: 98px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards__item__text {

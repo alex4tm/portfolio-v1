@@ -122,6 +122,7 @@
     background-color: #fff;
     color: #242424;
     border-radius: 0;
+    text-shadow: none;
   }
 
   .navbar-logo {
