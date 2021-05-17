@@ -19,9 +19,9 @@ function About() {
         </div>
       </div>
       <div className="about-skills">
-        <h2>
+        <h1>
           Skills and tools i used in my projects
-        </h2>
+        </h1>
         <div className="skills-icons">
           <i className="devicon-rails-plain colored" title="Rails"></i>
           <i className="devicon-ruby-plain-wordmark colored" title="Ruby"></i>

@@ -15,6 +15,7 @@
   text-align: center;
   color: var(--secondary);
   margin: 40px 0;
+  text-shadow: 2px 2px #15131496;
 }
 
 .cards__container {
@@ -49,7 +50,7 @@
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: -3px 18px 20px 0px rgba(99,89,99,1);
+  box-shadow: 3px 3px 19px 5px rgb(88 154 160 / 72%);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
@@ -98,6 +99,9 @@
   line-height: 24px;
 }
 
+.cards__item__info {
+  background: #c3e0df;
+}
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;

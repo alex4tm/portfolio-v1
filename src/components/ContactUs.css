@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   color: var(--secondary);
+  text-shadow: 2px 2px #25434a;
 }
 .contact-wrapper {
   max-width: 700px;
@@ -43,6 +44,7 @@
 
 #submit-btn input {
   color: var(--secondary);
+  text-shadow: 1px 1px #25434a;
 }
 
 .submit-btn {
@@ -59,8 +61,9 @@
 #submit-btn input:hover {
   color: var(--secondary);
   transition: 0.2s;
-  transform: scale(1.05);
   cursor: pointer;
+  color: black;
+  text-shadow: none;
 }
 
 #submit-btn:hover i {
@@ -68,4 +71,6 @@
   z-index: 100;
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
+  color: black;
+  text-shadow: none;
 }

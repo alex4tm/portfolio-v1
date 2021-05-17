@@ -2,6 +2,7 @@
 #about h1 {
   margin: 20px 30px;
   color: var(--primary);
+  text-shadow: 2px 2px #15131496;
 }
 
 .about-container {
@@ -69,12 +70,13 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.about-skills h2 {
+.about-skills h1 {
   margin-bottom: 3rem;
   color: var(--secondary);
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  text-shadow: 2px 2px #15131496;
 }
 .about-skills .colored {
   font-size: 3rem;

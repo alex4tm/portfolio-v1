@@ -8,9 +8,9 @@
 }
 
 .fab:hover {
-  color: var(--secondary);
-  transition: 0.7s;
+  color: #cdecf3;
   transform: scale(1.2) rotateY(360deg);
+  transition: 0.7s ease-in-out;
 }
 /* Social Icons */
 .social-icon-link {
