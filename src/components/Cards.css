@@ -1,7 +1,7 @@
 .cards {
   background: url('../images/dots.svg') center center/cover no-repeat;
 
-  box-shadow: inset 0 0 0 1700px rgb(40 136 146 / 50%);
+  box-shadow: inset 0 0 0 1700px rgb(27 94 101 / 42%);
   display: flex;
   flex-flow: column;
   align-items: center;

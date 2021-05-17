@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1700px rgb(40 136 146 / 50%);
+  box-shadow: inset 0 0 0 1700px rgb(27 94 101 / 42%);
   object-fit: contain;
   word-spacing: 0.2rem;
 }
@@ -51,6 +51,7 @@
 .btn:hover > .fa-arrow-alt-circle-down {
   transform: translateY(10%);
   transition: all 0.4s ease-in-out;
+  opacity: 0.8;
 }
 
 
