@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import img1 from '../images/Prism.svg'
-import img2 from '../images/Prism-blue.svg'
+import img2 from '../images/Prism-blue.svg';
 
 function Cards() {
   return (

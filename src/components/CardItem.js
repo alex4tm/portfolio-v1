@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Badge from 'react-bootstrap/Badge';
 
 function CardItem(props) {
   return (
@@ -14,6 +15,11 @@ function CardItem(props) {
             />
           </figure>
           <div className='cards__item__info'>
+            <div className="cards__skills">
+              <Badge variant="info">Info</Badge>{' '}
+              <Badge variant="info">Info</Badge>{' '}
+              <Badge variant="info">Info</Badge>{' '}
+            </div>
             <h5 className='cards__item__text'>{props.text}</h5>
           </div>
         </Link>
