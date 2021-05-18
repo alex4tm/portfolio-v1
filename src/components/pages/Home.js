@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
-import Cards from '../Cards';
+import Projects from '../Projects';
 import Footer from '../Footer';
 import ContactUs from '../ContactUs';
 import About from '../About';
@@ -12,7 +12,7 @@ function Home() {
     <>
       <HeroSection />
       <About />
-      <Cards />
+      <Projects />
       <ContactUs />
       <Footer />
     </>

@@ -1,4 +1,4 @@
-.cards {
+.projects {
   background: url('../images/dots.svg') center center/cover no-repeat;
 
   box-shadow: inset 0 0 0 1700px rgb(27 94 101 / 42%);
@@ -12,42 +12,42 @@
   word-spacing: 0.2rem;
 }
 
-.cards h1 {
+.projects h1 {
   text-align: center;
   color: var(--secondary);
   margin: 40px 0;
   text-shadow: 2px 2px #15131496;
 }
 
-.cards__container {
+.projects__container {
   border-radius: 1rem;
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 20px;
   background: linear-gradient(to right bottom, #bde8ef, rgb(126 177 172 / 95%), rgb(101 142 144 / 95%), rgb(164 204 208 / 90%), rgb(78 113 115 / 90%), rgb(86 135 140 / 85%), rgb(12 80 90 / 80%) );
 }
 
-.cards__wrapper {
+.projects__wrapper {
   position: relative;
   margin: 50px 0 45px;
 }
 
-.cards__items {
+.projects__items {
   margin-bottom: 24px;
 }
 
-.cards__item {
+.projects__item {
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  min-width: 40vw;
 }
 
-.cards__item__link {
+.projects__item__link {
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -59,7 +59,7 @@
   text-decoration: none;
 }
 
-.cards__item__pic-wrap {
+.projects__item__pic-wrap {
   position: relative;
   min-width: 85%;
   width: 100%;
@@ -72,7 +72,7 @@
   animation-duration: 2s;
 }
 
-.cards__item__img {
+.projects__item__img {
   position: absolute;
   top: 0;
   right: 0;
@@ -87,11 +87,11 @@
   transition: all 0.2s linear;
 }
 
-.cards__item__img:hover {
+.projects__item__img:hover {
   transform: scale(1.05);
 }
 
-.cards__item__info {
+.projects__item__info {
   padding: 20px 30px 30px;
   min-height: 98px;
   flex-direction: column;
@@ -99,15 +99,16 @@
   align-items: center;
 }
 
-.cards__item__text {
+.projects__item__text {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
 }
 
-.cards__item__info {
+.projects__item__info {
   background: #c3e0df;
 }
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
@@ -115,13 +116,14 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards__items {
+  .projects__items {
     display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .cards__item {
+  .projects__item {
     margin-bottom: 2rem;
+    min-width: 70vw;
   }
 }

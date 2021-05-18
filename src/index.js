@@ -14,7 +14,7 @@ const navHome = document.querySelector(".nav-home");
 const about = document.querySelector("#about");
 const navAbout = document.querySelector(".nav-about");
 
-const projects = document.querySelector(".cards__container");
+const projects = document.querySelector(".projects__container");
 const navProjects = document.querySelector(".nav-projects");
 
 const contact = document.querySelector(".contact-container");
