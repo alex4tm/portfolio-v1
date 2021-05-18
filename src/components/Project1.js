@@ -16,9 +16,10 @@ function Project1(props) {
           </figure>
           <div className='projects__item__info'>
             <div className="projects__skills">
-              <Badge variant="info">Info</Badge>{' '}
-              <Badge variant="info">Info</Badge>{' '}
-              <Badge variant="info">Info</Badge>{' '}
+              <Badge className='devicon-rails-plain colored'>Rails</Badge>{' '}
+              <Badge className='devicon-ruby-plain-wordmark colored'>Ruby</Badge>{' '}
+              <Badge className='devicon-javascript-plain colored'>JavaScript</Badge>{' '}
+              <Badge className='devicon-postgresql-plain-wordmark colored'>Postgresql</Badge>{' '}
             </div>
             <h5 className='projects__item__text'>{props.text}</h5>
           </div>

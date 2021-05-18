@@ -48,7 +48,11 @@
   margin: 2% 6%;
 }
 
-.about-info p, li {
+.about-info p {
+  margin-left: 20px;
+}
+
+.about-info li {
   margin-left: 20px;
 }
 
@@ -94,7 +98,7 @@
   opacity: 0.8;
 }
 
-.colored:hover {
+.about-skills .colored:hover {
   transform: scale(1.05);
   opacity: 1;
 }

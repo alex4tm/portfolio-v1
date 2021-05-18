@@ -16,12 +16,11 @@ function Project2(props) {
           </figure>
           <div className='projects__item__info'>
             <div className="projects__skills">
-              <Badge variant="info">Info</Badge>{' '}
-              <Badge variant="info">Info</Badge>{' '}
-              <Badge variant="info">Info</Badge>{' '}
-              <Badge variant="info">Info</Badge>{' '}
-              <Badge variant="info">Info</Badge>{' '}
-              <Badge variant="info">Info</Badge>{' '}
+              <Badge className='devicon-rails-plain colored'>Rails</Badge>{' '}
+              <Badge className='devicon-react-plain colored'>React</Badge>{' '}
+              <Badge className='devicon-redux-plain colored'>Redux</Badge>{' '}
+              <Badge className='devicon-redis-plain colored'>Redis</Badge>{' '}
+              <Badge className='devicon-javascript-plain colored'>JavaScript</Badge>{' '}
             </div>
             <h5 className='projects__item__text'>{props.text}</h5>
           </div>

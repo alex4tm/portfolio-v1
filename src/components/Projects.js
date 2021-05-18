@@ -14,12 +14,12 @@ function Projects() {
           <ul className='projects__items'>
             <Project1
               src={img1}
-              text='YouKnowMe'
+              text='An app that allows you to save all your preferences and dietary requirements and makes it easy to share them with restaurants.'
               path='/'
             />
             <Project2
               src={img2}
-              text='BabyWear'
+              text='Messaging WebApp with authentication.'
               path='/'
             />
           </ul>
