@@ -59,7 +59,7 @@
 }
 
 .btn:hover > .fa-arrow-alt-circle-down {
-  transform: rotateZ(180deg) rotateX(180deg);
+  transform: translateY(15%);
   transition: all 0.4s ease-in;
   text-shadow: none;
 }
