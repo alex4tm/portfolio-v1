@@ -156,8 +156,12 @@
 @media only screen and (max-width: 1024px) {
   .projects__item {
     margin-bottom: 2rem;
+    max-width: 85vw;
   }
   .projects__item__link {
     min-width: 85vw;
+  }
+  .projects__skills {
+    display: block;
   }
 }
