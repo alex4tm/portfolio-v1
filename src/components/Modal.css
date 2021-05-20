@@ -19,11 +19,23 @@
 }
 
 .modal-header h2 {
+  color: #fff;
   margin-left: 40%;
   letter-spacing: 0.2rem;
-  text-shadow: 1px 1px #cac2c2;
+  text-shadow: 1px 1px #293c3a;
 }
 
+.modal-body {
+  display: flex;
+}
+
+.modal-body-info {
+  letter-spacing: 0.03rem;
+  word-spacing: 0.1rem;
+  margin-left: 1.5rem;
+  overflow-y: scroll;
+  height: 72vh;
+}
 .modal-footer {
   justify-content: space-evenly;
   color: white;

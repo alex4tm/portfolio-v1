@@ -1,7 +1,18 @@
 .carousel-wrapper {
-  width: 40vw;
+
 }
 
 .carousel-inner {
   height: 70vh;
+}
+
+
+.carousel-item img{
+  width: 16rem;
+  height: 71vh;
+  object-fit: cover;
+}
+
+.carousel-indicators li {
+  background-color: #0a3535e6;
 }
