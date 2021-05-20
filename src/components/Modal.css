@@ -24,6 +24,28 @@
   text-shadow: 1px 1px #cac2c2;
 }
 
+.modal-footer {
+  justify-content: space-evenly;
+  color: white;
+  background: #242424;
+}
+
+.modal-footer a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px #325558;
+  padding: 0.5rem;
+}
+.footer-links {
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+.footer-links:hover i {
+  color: #cdecf3;
+  transform: scale(1.2) rotateY(360deg);
+  transition: 0.7s ease-in-out;
+}
 
 @media only screen and (max-width: 1024px) {
   .modal-header h2 {

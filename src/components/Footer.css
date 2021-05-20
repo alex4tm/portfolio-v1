@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.fab:hover {
+.social-icon-link:hover {
   color: #cdecf3;
   transform: scale(1.2) rotateY(360deg);
   transition: 0.7s ease-in-out;

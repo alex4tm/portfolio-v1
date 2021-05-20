@@ -52,8 +52,14 @@ function Project1(props) {
         </Carousel>
         </Modal.Body>
         <Modal.Footer>
-          <a href="/">View Live</a>
-          <a href="/">View Code</a>
+            <div className="footer-links">
+              <a target="blank" href="https://youknowme.app/">View Live</a>
+              <i className="fas fa-satellite-dish"></i>
+            </div>
+            <div className="footer-links">
+              <a target="blank" href="https://github.com/alex4tm/YouKnowMe">View Code</a>
+              <i className="fab fa-github"></i>
+            </div>
         </Modal.Footer>
       </Modal>
 
