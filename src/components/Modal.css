@@ -1,0 +1,32 @@
+.close {
+  padding: 0.1rem 0.6rem !important;
+  margin: 0 !important;
+  border-radius: 50%;
+  background: lightred;
+  background: #f35555;
+  color: white;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.modal-content {
+  background: #dfecec;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-header h2 {
+  margin-left: 40%;
+  letter-spacing: 0.2rem;
+  text-shadow: 1px 1px #cac2c2;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .modal-header h2 {
+    margin-left: 10%;
+  }
+}

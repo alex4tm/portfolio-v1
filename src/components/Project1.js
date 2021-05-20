@@ -4,54 +4,58 @@ import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../images/alex.jpg';
+import img2 from '../images/alex-sketcher.jpeg';
+import img3 from '../images/doodles2.svg';
+
+import './Carousel.css';
+import './Modal.css';
+
 
 function Project1(props) {
 
   const [lgShow, setLgShow] = useState(false);
   return (
     <>
-<Modal
+      <Modal
         size="lg"
         show={lgShow}
         onHide={() => setLgShow(false)}
-        aria-labelledby="example-modal-sizes-title-lg"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-lg">
-            Large Modal
+          <Modal.Title as="h2">
+            YouKnowMe
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-         <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={img1}
-      alt="First slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={img1}
-      alt="Second slide"
-    />
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={img1}
-      alt="Third slide"
-    />
-  </Carousel.Item>
-</Carousel>
+         <Carousel className="carousel-wrapper" interval={5000} pause="hover">
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img1}
+              alt={img1}
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img2}
+              alt={img2}
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={img3}
+              alt={img3}
+            />
+          </Carousel.Item>
+        </Carousel>
         </Modal.Body>
         <Modal.Footer>
           <a href="/">View Live</a>
           <a href="/">View Code</a>
         </Modal.Footer>
       </Modal>
-
 
       <li className='projects__item'>
         <Link className='projects__item__link' to={props.path} onClick={() => setLgShow(true)}>
@@ -60,7 +64,6 @@ function Project1(props) {
               className='projects__item__img'
               alt=''
               src={props.src}
-
             />
           </figure>
           <div className='projects__item__info'>
