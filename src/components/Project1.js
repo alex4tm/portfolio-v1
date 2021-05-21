@@ -17,7 +17,7 @@ function Project1(props) {
   return (
     <>
       <Modal
-        size="lg"
+        size="xl"
         show={lgShow}
         onHide={() => setLgShow(false)}
       >

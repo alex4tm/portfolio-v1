@@ -5,12 +5,12 @@
   background: lightred;
   background: #f35555;
   color: white;
-  border: none;
+  border: 0.01rem #8ab9b9 solid;
   font-size: 1.3rem;
 }
 
 .modal-content {
-  background: #dfecec;
+  background: #709290;
 }
 
 .modal-header {
@@ -26,16 +26,17 @@
 }
 
 .modal-body {
-  display: flex;
+
 }
 
 .modal-body-info {
   letter-spacing: 0.03rem;
   word-spacing: 0.1rem;
   margin-left: 1.5rem;
-  overflow-y: scroll;
-  height: 72vh;
+  overflow: auto;
+  height: 50vh;
 }
+
 .modal-footer {
   justify-content: space-evenly;
   color: white;
@@ -62,5 +63,21 @@
 @media only screen and (max-width: 1024px) {
   .modal-header h2 {
     margin-left: 10%;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 70vw !important;
+    margin: 1.75rem auto !important;
+  }
+}
+
+@media (min-width: 200px) {
+  .modal-dialog {
+    position: relative;
+    width: 70vw;
+    margin: 1rem auto;
+    pointer-events: none;
   }
 }
