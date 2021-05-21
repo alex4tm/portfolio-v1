@@ -57,6 +57,7 @@ function Project1(props) {
       </Modal>
 
       <li className='projects__item'>
+        <h2>YouKnowMe</h2>
         <Link className='projects__item__link' to={props.path} onClick={() => setLgShow(true)}>
           <figure className='projects__item__pic-wrap' data-category={props.label}>
             <img

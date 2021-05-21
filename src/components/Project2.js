@@ -6,6 +6,7 @@ function Project2(props) {
   return (
     <>
       <li className='projects__item'>
+        <h2>Slack Clone</h2>
         <Link className='projects__item__link' to={props.path}>
           <figure className='projects__item__pic-wrap' data-category={props.label}>
             <img

@@ -40,11 +40,22 @@
 }
 
 .projects__item {
+  position: relative;
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
   min-width: 40vw;
+}
+
+.projects__item h2 {
+  z-index: 1;
+  position: absolute;
+  color: #fff;
+  text-shadow: 1px 1px black;
+  padding: 0 auto;
+  margin: 10% 10%;
+  letter-spacing: 0.2rem;
 }
 
 .projects__item__link {
