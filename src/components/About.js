@@ -12,7 +12,7 @@ function About() {
               I’ve built web applications using Ruby on Rails, Node.js and React and have a strong foundation in web design and development.
             </p>
           <ul>
-            <li>Lived and worked in the UAE for the last 10 years. Was lucky enough to get paid and visit 70 countries 😊.</li>
+            <li>Lived and worked in the UAE for the last 10 years. Was lucky enough to get paid and visit 70 countries.</li>
             <li>I love playing chess, 3 and 10 minutes time control and puzzles.</li>
           </ul>
         </div>
