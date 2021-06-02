@@ -8,7 +8,10 @@
 
 
 .carousel-item img{
-  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid black;
+  width: auto;
+  margin: 0 auto;
   height: 50vh;
   object-fit: contain;
 }
@@ -20,4 +23,8 @@
 
 .carousel-inner .active {
   border-bottom: none !important;
+}
+
+.carousel-item.active {
+  display: flex;
 }

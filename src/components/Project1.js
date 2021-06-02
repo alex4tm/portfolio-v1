@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../images/alex.jpg';
-import img2 from '../images/alex-sketcher.jpeg';
+import img1 from '../images/mobile.gif';
+import img2 from '../images/demo1.mp4';
 import img3 from '../images/doodles2.svg';
 
 import './Carousel.css';
@@ -33,7 +33,7 @@ function Project1(props) {
                 <img src={img1}alt={img1} />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={img2} alt={img2} />
+                <video src={img2} type="video/mp4" width="320" height="240" autoPlay muted loop playbackrate="0.5" />
               </Carousel.Item>
               <Carousel.Item>
                 <img src={img3} alt={img3} />
