@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../images/mobile.gif';
 import img2 from '../images/demo1.mp4';
-import img3 from '../images/youknowmelanding.png';
+import img3 from '../images/youknowmelanding.jpg';
 
 import './Carousel.css';
 import './Modal.css';

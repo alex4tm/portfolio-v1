@@ -55,13 +55,15 @@
   color: #fff;
   text-shadow: 1px 1px black;
   padding: 0 auto;
-  margin: 10% 10%;
+  top: -2.5rem;
+  left: 2rem;
   letter-spacing: 0.2rem;
 }
 
 .projects__item__link {
   display: flex;
   flex-flow: column;
+  margin-bottom: 2rem;
   width: 100%;
   box-shadow: 3px 3px 19px 5px rgb(88 154 160 / 72%);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
