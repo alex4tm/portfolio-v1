@@ -75,11 +75,9 @@
 }
 
 .skills-icons {
-  background: linear-gradient(180deg,
-  rgb(27 94 101 / 14%), transparent);
-  border-radius: 10%;
-  padding-top: 15px;
-  padding: 10px;
+  background: linear-gradient(181deg, rgb(95 175 183 / 43%), #7b87880f);
+  border-radius: 35%;
+  padding: 23px;
 }
 
 .about-skills h1 {
