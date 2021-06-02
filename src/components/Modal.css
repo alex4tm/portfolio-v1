@@ -3,11 +3,16 @@
   margin: 0 !important;
   border-radius: 50%;
   background: lightred;
-  background: #f35555;
+  background: #b95365;
   color: white;
   border: 0.01rem #8ab9b9 solid;
   font-size: 1.3rem;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.close:hover {
+  transform: rotate3d(0, 0, 1, 90deg);
 }
 
 .modal-content {
