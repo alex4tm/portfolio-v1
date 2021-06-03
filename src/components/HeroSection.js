@@ -10,6 +10,13 @@ function HeroSection() {
   return (
     <div className='hero-container' id='home'>
         <div className="hero-content">
+          <div className="theme-wrapper">
+            <h3>dark/light</h3>
+            <label className="switch">
+              <input type="checkbox" />
+              <span className="slider round"></span>
+            </label>
+          </div>
           <h1>Hello, I'm Alex</h1>
           <p>Software developer</p>
           <div className='hero-btns'>
