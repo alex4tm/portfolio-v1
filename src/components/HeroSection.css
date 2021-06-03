@@ -1,6 +1,5 @@
 
 .hero-container {
-  /*background: url('../images/alex-sketcher.jpeg') center center/cover no-repeat;*/
   background-image:
     linear-gradient(to bottom, rgb(122 154 151 / 52%), rgb(131 134 134 / 50%)),
     url('../images/alex-sketcher.jpeg');
@@ -17,29 +16,31 @@
   word-spacing: 0.2rem;
 }
 
-
-.hero-container > h1 {
-  color: #fff;
-  font-size: 65px;
-  margin-top: 30vh;
-  text-shadow: 2px 2px #15131496;
-  margin-left: 7%;
-
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 55%;
 }
 
-.hero-container > p {
-  margin-top: 8px;
+.hero-content > h1 {
   color: #fff;
-  font-size: 32px;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px #15131496;
+}
+
+.hero-content > p {
+  color: #fff;
+  font-size: 2rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   text-shadow: 2px 2px #15131496;
-  margin-left: 11%;
 }
 
 .hero-btns {
-  margin-top: 32px;
-  margin-left: 12%;
+  margin-top: 1.5rem;
 }
 
 .hero-btns a {
@@ -64,21 +65,29 @@
 }
 
 
-@media screen and (max-width: 960px) {
-  .hero-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
+@media screen and (max-width 768px) {
+    .hero-content {
+    margin-top: 40% !important;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .hero-container > h1 {
-    font-size: 50px;
-    margin-top: 40vh;
-  }
 
-  .hero-container > p {
-    font-size: 30px;
+@media screen and (min-width: 1150px) {
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -25%;
+    margin-right: 4%;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .hero-content > p {
+    font-size: 1.8rem;
   }
 
   .btn-mobile {
