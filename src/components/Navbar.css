@@ -175,3 +175,21 @@
     text-shadow: none;
   }
 }
+
+
+
+@media (max-width: 450px) {
+  .navbar-logo {
+    margin-left: 0.2rem;
+    transform: translate(10%, 75%);
+    font-size: 1.2rem;
+  }
+  .fa-laptop-code {
+  margin-left: 0.2rem;
+  font-size: 1.2rem;
+  }
+  .menu-icon {
+    transform: translate(-100%, 95%);
+    font-size: 1.3rem;
+  }
+}
