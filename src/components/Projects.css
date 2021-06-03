@@ -101,8 +101,10 @@
   transition: all 0.2s linear;
 }
 
-.projects__item__img:hover {
+.projects__item__img:hover,
+.projects__item__img:focus {
   transform: scale(1.05);
+  outline: none;
 }
 
 .projects__item__info {

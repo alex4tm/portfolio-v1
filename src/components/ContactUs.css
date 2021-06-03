@@ -57,21 +57,23 @@
   color: var(--secondary);
 }
 
-#submit-btn input:hover {
-  color: var(--secondary);
+#submit-btn input:hover,
+#submit-btn input:focus {
   transition: 0.2s;
   cursor: pointer;
-  color: black;
+  color: black !important;
   text-shadow: none;
+  outline: none;
 }
 
-#submit-btn:hover i {
-  color: var(--secondary);
+#submit-btn:hover i,
+#submit-btn:focus-within i {
   z-index: 100;
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
-  color: black;
+  color: black !important;
   text-shadow: none;
+  outline: none;
 }
 
 @media only screen and (max-width: 400px) {

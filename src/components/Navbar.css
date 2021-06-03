@@ -33,11 +33,13 @@
   text-shadow: 1px 1px #25434a;
 }
 
-.navbar-logo:hover .fa-laptop-code {
+.navbar-logo:hover .fa-laptop-code,
+.navbar-logo:focus .fa-laptop-code {
   color: #cdecf3;
   transition: 0.7s ease-in-out;
   transform: scale(1.2) rotateY(360deg);
   text-shadow: none;
+  outline: none;
 }
 
 .fa-laptop-code {
@@ -71,7 +73,8 @@
   text-shadow: 1px 1px #25434a;
 }
 
-.nav-links:hover {
+.nav-links:hover,
+.nav-links:focus {
   color: #cdecf3;
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
@@ -121,11 +124,13 @@
     display: table;
   }
 
-  .nav-links:hover {
+  .nav-links:hover,
+  .nav-links:focus {
     background-color: #fff;
     color: #242424;
     border-radius: 0;
     text-shadow: none;
+    outline: none;
   }
 
   .navbar-logo {
@@ -168,15 +173,14 @@
     transition: all 0.3s ease-out;
   }
 
-  .nav-links-mobile:hover {
+  .nav-links-mobile:hover,
+   .nav-links-mobile:focus {
     background: #fff;
     color: #242424;
     transition: 250ms;
     text-shadow: none;
   }
 }
-
-
 
 @media (max-width: 450px) {
   .navbar-logo {

@@ -61,10 +61,12 @@
   margin-left: 0.7rem;
 }
 
-.btn:hover > .fa-arrow-alt-circle-down {
+.btn:hover > .fa-arrow-alt-circle-down,
+.btn:focus-within > .fa-arrow-alt-circle-down {
   transform: translateY(10%);
   transition: all 0.1s ease-in-out;
   text-shadow: none;
+  outline: none;
 }
 
 

@@ -44,10 +44,16 @@
 .btn--medium:hover,
 .btn:hover,
 .btn--outline:hover,
-.btn--primary:hover {
+.btn--primary:hover,
+.btn--large:focus-within,
+.btn--medium:focus-within,
+.btn:focus-within,
+.btn--outline:focus-within,
+.btn--primary:focus-within {
   transition: all 0.3s ease-in-out;
   background: var(--primary);
   color: black;
   text-shadow: none;
   opacity: 0.9;
+  outline: none;
 }

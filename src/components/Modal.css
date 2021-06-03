@@ -11,8 +11,10 @@
   transition: all 0.4s ease-in-out;
 }
 
-.close:hover {
+.close:hover,
+.close:focus {
   transform: rotate3d(0, 0, 1, 90deg);
+  outline: none;
 }
 
 .modal-content {
@@ -60,10 +62,12 @@
   border-radius: 0.5rem;
   padding: 0.4rem;
 }
-.footer-links:hover i {
+.footer-links:hover i,
+.footer-links:focus i {
   color: #cdecf3;
   transform: scale(1.2) rotateY(360deg);
   transition: 0.7s ease-in-out;
+  outline: none;
 }
 
 @media only screen and (max-width: 1024px) {
