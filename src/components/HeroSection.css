@@ -146,6 +146,9 @@ input:checked + .slider:before {
   margin-bottom: 1rem;
 }
 
+
+
+
 @media screen and (min-width: 1150px) {
   .hero-content {
     display: flex;
