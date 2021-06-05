@@ -148,6 +148,38 @@ input:checked + .slider:before {
 
 
 
+/*#text-path {
+  animation: checkmark-stroke 3s forwards;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  stroke-linejoin: round;
+  opacity: 0;
+}
+@keyframes checkmark-stroke {
+  0% {
+    stroke-dashoffset: 400;
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}*/
+
+/*#text_path {
+  stroke-dasharray: 0 1000;
+  animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dasharray: 0 1000;
+  }
+  to {
+    stroke-dasharray: 1000 0;
+  }
+} */
+
 
 @media screen and (min-width: 1150px) {
   .hero-content {
