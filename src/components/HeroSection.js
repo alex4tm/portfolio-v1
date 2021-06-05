@@ -11,22 +11,22 @@ function HeroSection() {
     <div className='hero-container' id='home'>
         <div className="hero-content">
           <div className="theme-wrapper">
-
-          <svg width="250" height="280">
+            <svg width="250" height="280">
                 <path id="square_path" d="M50,50 h150 a20,20 0 0 1 20,20 v150 a20,20 0 0 1 -20,20 h-150 a20,20 0 0 1 -20,-20 v-150 a20,20 0 0 1 20,-20 z" fill="none" stroke="white" strokeWidth="0" />
-              <text y="20" fontSize="30" fontFamily="PT Sans, sans-serif" fill="lightgray" opacity="0.5">
+              <text y="10" x="20">
                 <textPath href="#square_path" id="text_path" className="square_text" startOffset="0">
-                  choose a theme
+                  Choose a Theme
                 </textPath>
               </text>
-          </svg>
-          <div id="test">
+            </svg>
+            <div className="theme-changer">
+              <label className="switch">
+                <input type="checkbox" />
+                <span className="slider round"></span>
+              </label>
+            </div>
           </div>
-            <label className="switch">
-              <input type="checkbox" />
-              <span className="slider round"></span>
-            </label>
-          </div>
+
           <h1>Hello, I'm Alex</h1>
           <p>Software developer</p>
           <div className='hero-btns'>
@@ -56,13 +56,13 @@ document.addEventListener("DOMContentLoaded", async function() {
    function updateMoveText(offset) {
     let currentOffset = parseInt(moveText.getAttribute('startOffset'));
     if (currentOffset <= 750) {
-      moveText.setAttribute("startOffset", (currentOffset + 2));
+      moveText.setAttribute("startOffset", (currentOffset + ((currentOffset/100) + 1)));
     } else {
         moveText.setAttribute("startOffset", (0));
     }
 };
 
- setInterval(updateMoveText, 50);
+ setInterval(updateMoveText, 30);
 });
 
 export default HeroSection;
