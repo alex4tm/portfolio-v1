@@ -22,7 +22,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
-  margin-top: 40%;
+  margin-top: 32%;
 }
 
 .hero-content > h1 {
@@ -156,9 +156,10 @@ svg text {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -25%;
+    margin-top: -15%;
     margin-right: 4%;
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -171,6 +172,11 @@ svg text {
   .btn-mobile {
     display: block;
     text-decoration: none;
+  }
+    .theme-wrapper {
+    position: absolute;
+    top: 21vh;
+    left: 5vw;
   }
 }
 

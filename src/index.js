@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './components/Observer.css';
+import svgText from './components/HeroSvgText.js';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
@@ -89,3 +90,5 @@ homeObserver.observe(home);
 aboutObserver.observe(about);
 projectsObserver.observe(projects);
 contactObserver.observe(contact);
+
+svgText();
