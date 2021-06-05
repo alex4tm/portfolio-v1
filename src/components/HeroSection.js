@@ -5,9 +5,13 @@ import '../App.css';
 import './HeroSection.css';
 import './Button.css';
 import myPdf from '../images/CV-ILIESI_ALEXANDRU.pdf';
+import changeThemeLight from './ChangeThemeLight.js'
+import changeThemeDark from './ChangeThemeDark.js'
 
 function HeroSection() {
+
   return (
+
     <div className='hero-container' id='home'>
         <div className="hero-content">
           <div className="theme-wrapper">
@@ -20,10 +24,12 @@ function HeroSection() {
               </text>
             </svg>
             <div className="theme-changer">
-              <label className="switch">
-                <input type="checkbox" />
-                <span className="slider round"></span>
-              </label>
+                    <button className="btn btn--outline btn--medium" id='light-theme-btn' onClick={ changeThemeLight }>
+                      light theme
+                    </button>
+                    <button className="btn btn--outline btn--medium" id='dark-theme-btn' onClick={ changeThemeDark }>
+                      dark theme
+                    </button>
             </div>
           </div>
 

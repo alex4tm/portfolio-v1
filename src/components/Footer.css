@@ -10,9 +10,11 @@
 .social-icon-link:hover,
 .social-icon-link:focus {
   color: #cdecf3;
-  transform: scale(1.2) rotateY(360deg);
-  transition: 0.7s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  text-shadow: none;
   outline: none;
+
 }
 /* Social Icons */
 .social-icon-link {
