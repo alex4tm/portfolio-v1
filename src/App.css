@@ -1,6 +1,9 @@
 :root {
   scroll-padding-top: 60px;
   scroll-behavior: smooth;
+  --primary: white;
+  --secondary: black;
+  --hover: lightblue;
 }
 
 * {

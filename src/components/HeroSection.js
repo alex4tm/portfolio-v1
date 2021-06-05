@@ -27,6 +27,7 @@ function HeroSection() {
                     <button className="btn btn--outline btn--medium" id='light-theme-btn' onClick={ changeThemeLight }>
                       light theme
                     </button>
+                    <br></br><br></br>
                     <button className="btn btn--outline btn--medium" id='dark-theme-btn' onClick={ changeThemeDark }>
                       dark theme
                     </button>

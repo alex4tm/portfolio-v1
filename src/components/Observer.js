@@ -26,10 +26,8 @@ const mainObserver = () => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         navHome.classList.add("active");
-        mainNav.classList.remove("nav-scrolled");
       } else {
         navHome.classList.remove("active");
-        mainNav.classList.add("nav-scrolled");
       }
     });
   },
@@ -42,10 +40,8 @@ const mainObserver = () => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         navAbout.classList.add("active");
-        mainNav.classList.remove("nav-scrolled");
       } else {
         navAbout.classList.remove("active");
-        mainNav.classList.add("nav-scrolled");
       }
     });
   },
