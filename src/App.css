@@ -5,6 +5,7 @@
   --primary: white;
   --secondary: black;
   --hover: lightblue;
+  --test: 255,255,255;
 }
 
 * {
