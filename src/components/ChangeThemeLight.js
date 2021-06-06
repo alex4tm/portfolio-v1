@@ -3,9 +3,10 @@ import './ChangeTheme.css';
 
 const changeThemeLight = () => {
 
-    document.documentElement.style.setProperty('--primary', '#fff')
-    document.documentElement.style.setProperty('--secondary', '#ef3535ad')
-    document.documentElement.style.setProperty('--hover', '#b87bbf')
+    document.documentElement.style.setProperty('--background', '#f3f5d4')
+    document.documentElement.style.setProperty('--primary', '#DEE4E7')
+    document.documentElement.style.setProperty('--secondary', '#121212de')
+    document.documentElement.style.setProperty('--hover', '#1F6EBEab')
 
   //   let darkThemeEnabled = document.documentElement.style.setProperty('--primary', 'yellow');
   //   localStorage.setItem('dark-theme-enabled', darkThemeEnabled);

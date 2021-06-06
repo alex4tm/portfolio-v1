@@ -144,11 +144,16 @@ input:checked + .slider:before {
 }
 
 svg text {
-  fill: white;
-  opacity: 0.7;
-  letter-spacing:  0.2rem;
-  text-transform: uppercase;
+  font-size: 1.1rem;
+  opacity: 0.5;
+  letter-spacing:  0.5rem;
+  text-transform: capitalize;
+  font-variant: petite-caps;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 2px 2px 5px white;
 }
+
+
 
 @media screen and (min-width: 1150px) {
   .hero-content {
@@ -159,7 +164,6 @@ svg text {
     margin-top: -15%;
     margin-right: 4%;
   }
-
 }
 
 @media screen and (max-width: 768px) {

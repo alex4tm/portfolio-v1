@@ -17,8 +17,8 @@ function HeroSection() {
           <div className="theme-wrapper">
             <svg width="250" height="280">
                 <path id="square_path" d="M50,50 h150 a20,20 0 0 1 20,20 v150 a20,20 0 0 1 -20,20 h-150 a20,20 0 0 1 -20,-20 v-150 a20,20 0 0 1 20,-20 z" fill="none" stroke="white" strokeWidth="0" />
-              <text y="10" x="20">
-                <textPath href="#square_path" id="text_path" className="square_text" startOffset="0">
+              <text y="20" x="20">
+                <textPath href="#square_path" id="text_path" className="square_text" startOffset="0" fill="#111111">
                   Choose a Theme
                 </textPath>
               </text>

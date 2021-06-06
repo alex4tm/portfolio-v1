@@ -1,7 +1,6 @@
 import './Observer.css';
 const mainObserver = () => {
 
-  const mainNav = document.querySelector(".navbar");
 
   const home = document.querySelector(".hero-btns");
   const navHome = document.querySelector(".nav-home");
