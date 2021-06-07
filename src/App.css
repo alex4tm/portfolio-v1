@@ -1,11 +1,10 @@
 :root {
   scroll-padding-top: 60px;
   scroll-behavior: smooth;
-  --background: white;
-  --primary: white;
-  --secondary: black;
-  --hover: lightblue;
-  --test: 255,255,255;
+  --background: 46, 51, 64;
+  --primary: 232, 223, 214;
+  --secondary: 232, 223, 214;
+  --hover: 232, 223, 214;
 }
 
 * {
