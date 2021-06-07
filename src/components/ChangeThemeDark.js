@@ -4,8 +4,8 @@ const changeThemeDark = () => {
 
     document.documentElement.style.setProperty('--background', '#121212')
     document.documentElement.style.setProperty('--primary', '#353535')
-    document.documentElement.style.setProperty('--secondary', '#d1acde')
-    document.documentElement.style.setProperty('--hover', '#a27cafe8')
+    document.documentElement.style.setProperty('--secondary', '#BB85F8')
+    document.documentElement.style.setProperty('--hover', '#DBB1FA')
   //   let darkThemeEnabled = document.documentElement.style.setProperty('--primary', 'black');
   //   localStorage.setItem('dark-theme-enabled', darkThemeEnabled);
 
