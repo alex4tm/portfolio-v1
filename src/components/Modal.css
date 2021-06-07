@@ -57,19 +57,12 @@
     background-color: rgba(var(--hover), 0.1);
 }
 
-/* Handle */
 .modal-body-info::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: rgba(var(--secondary), 0.7);
     -webkit-box-shadow: inset 0 0 1rem rgba(var(--hover), 0.2);
 }
-
-
-
-
-
-
 
 .modal-footer {
   justify-content: space-evenly;

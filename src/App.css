@@ -35,7 +35,6 @@
     background-color: rgba(var(--hover), 0.4);
 }
 
-/* Handle */
 *::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
