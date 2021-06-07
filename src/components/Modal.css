@@ -18,7 +18,7 @@
 }
 
 .modal-content {
-  background: #709290;
+  background-color: rgba(var(--primary));
 }
 
 .modal-header {
@@ -27,15 +27,12 @@
 }
 
 .modal-header h2 {
-  color: #fff;
   margin-left: 40%;
   letter-spacing: 0.2rem;
-  text-shadow: 1px 1px #293c3a;
+  color: rgb(var(--secondary));
+  text-shadow: 0.4px 0.4px rgb(var(--primary));
 }
 
-.modal-body {
-
-}
 
 .modal-body-info {
   letter-spacing: 0.03rem;
@@ -43,29 +40,32 @@
   margin-left: 1.5rem;
   overflow: auto;
   height: 50vh;
+  color: rgb(var(--hover));
+  text-shadow: 0.2px 0.2px rgb(var(--primary));
 }
 
 .modal-footer {
   justify-content: space-evenly;
-  color: white;
-  background: #242424;
+  color: rgb(var(--hover));
+  background: rgb(var(--primary));
 }
 
 .modal-footer a {
   text-decoration: none;
-  color: white;
-  text-shadow: 1px 1px #325558;
+  color: rgb(var(--secondary));
+  text-shadow: 0.2px 0.2px rgb(var(--primary));
   padding: 0.5rem;
 }
 .footer-links {
   border: 1px solid white;
   border-radius: 0.5rem;
   padding: 0.4rem;
+  cursor: pointer;
 }
 .footer-links:hover i,
 .footer-links:focus i {
-  color: #cdecf3;
-  transform: scale(1.2) rotateY(360deg);
+  color: rgb(var(--hover));
+  transform: rotateY(360deg);
   transition: 0.7s ease-in-out;
   outline: none;
 }
