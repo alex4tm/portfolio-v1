@@ -3,10 +3,10 @@ import './ChangeTheme.css';
 
 const changeThemeLight = () => {
 
-    document.documentElement.style.setProperty('--background', '#f3f5d4')
-    document.documentElement.style.setProperty('--primary', '#f3f4d5')
-    document.documentElement.style.setProperty('--secondary', '#121212de')
-    document.documentElement.style.setProperty('--hover', '#555555')
+    document.documentElement.style.setProperty('--background', '243, 245, 212')
+    document.documentElement.style.setProperty('--primary', '243, 244, 213')
+    document.documentElement.style.setProperty('--secondary', '18, 18, 18')
+    document.documentElement.style.setProperty('--hover', '85, 85, 85')
 
   //   let darkThemeEnabled = document.documentElement.style.setProperty('--primary', 'yellow');
   //   localStorage.setItem('dark-theme-enabled', darkThemeEnabled);

@@ -13,9 +13,9 @@
 
 .projects h1 {
   text-align: center;
-  color: var(--secondary);
   margin: 40px 0;
-  text-shadow: 2px 2px #15131496;
+  color: rgb(var(--secondary));
+  text-shadow: 0.4px 0.4px rgb(var(--primary));
 }
 
 .projects__container {
@@ -26,7 +26,7 @@
   width: 90%;
   margin: 0 auto;
   margin-bottom: 20px;
-  background: linear-gradient(to right bottom, #bde8ef, rgb(126 177 172 / 95%), rgb(101 142 144 / 95%), rgb(164 204 208 / 90%), rgb(78 113 115 / 90%), rgb(86 135 140 / 85%), rgb(12 80 90 / 80%) );
+  background: linear-gradient(to right bottom, rgba(var(--hover), 0.2), rgba(var(--background), 0.3), rgba(var(--hover), 0.4), rgba(var(--background), 0.5), rgba(var(--hover), 0.6), rgba(var(--background), 0.7));
 }
 
 .projects__wrapper {
@@ -52,8 +52,8 @@
 .projects__item h2 {
   z-index: 1;
   position: absolute;
-  color: #fff;
-  text-shadow: 1px 1px black;
+  color: rgb(var(--secondary));
+  text-shadow: 0.4px 0.4px rgb(var(--primary));
   padding: 0 auto;
   top: -2.5rem;
   left: 2rem;
@@ -65,9 +65,7 @@
   flex-flow: column;
   margin-bottom: 2rem;
   width: 100%;
-  box-shadow: 3px 3px 19px 5px rgb(88 154 160 / 72%);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  box-shadow: 2px 1px 1px 1px rgba(var(--hover), 30%);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -127,8 +125,8 @@
   align-content: center;
   display: flex;
   padding: 0px 15px;
-  color: white;
-  text-shadow: 1px 1px #15131496;
+  color: rgb(var(--hover));
+  text-shadow: 0.4px 0.4px rgb(var(--primary));
 }
 
 .projects__skills {
@@ -144,7 +142,7 @@
   padding: 3px 6px;
   font-size: 0.8rem;
   letter-spacing: 0.05rem;
-  background-color: rgb(148 154 154 / 70%);
+  background-color: rgba(var(--background), 0.4);
   font-variant: petite-caps;
   display: inline-flex;
   align-items: center;

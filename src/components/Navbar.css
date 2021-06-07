@@ -1,5 +1,5 @@
 .navbar {
-  background: var(--background);
+  background: rgb(var(--background));
   height: 80px;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .navbar-logo {
-  color: var(--secondary);
+  color: rgb(var(--secondary));
   justify-self: start;
   margin: 8px 20px;
   cursor: pointer;
@@ -30,13 +30,13 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  text-shadow: 1px 1px var(--primary);
+  text-shadow: 1px 1px rgb(var(--primary));
   transition: all 1s ease-in-out;
 }
 
 .navbar-logo:hover .fa-laptop-code,
 .navbar-logo:focus .fa-laptop-code {
-  color: var(--hover);
+  color: rgb(var(--hover));
   transition: 0.7s ease-in-out;
   transform: scale(1.2) rotateY(360deg);
   text-shadow: none;
@@ -65,24 +65,24 @@
 }
 
 .nav-links {
-  color: var(--secondary);
+  color: rgb(var(--secondary));
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  text-shadow: 1px 1px var(--primary);
+  text-shadow: 1px 1px rgb(var(--primary));
 }
 
 .nav-links:hover,
 .nav-links:focus {
-  color: var(--hover);
+  color: rgb(var(--hover));
   transition: all 0.2s ease-in-out;
   transform: scale(1.05);
 }
 
 .fa-bars {
-  color: var(--secondary);
+  color: rgb(var(--secondary));
 }
 
 .nav-links-mobile {
@@ -111,7 +111,7 @@
   }
 
   .nav-menu.active {
-    background: var(--background);;
+    background: rgb(var(--background));;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -127,8 +127,8 @@
 
   .nav-links:hover,
   .nav-links:focus {
-    background-color: var(--background);
-    color: var(--hover);
+    background-color: rgb(var(--background));
+    color: rgb(var(--hover));
     border-radius: 0;
     text-shadow: none;
     outline: none;
@@ -176,8 +176,8 @@
 
   .nav-links-mobile:hover,
    .nav-links-mobile:focus {
-    background: var(--background);
-    color: var(--secondary);
+    background: rgb(var(--background));
+    color: rgb(var(--secondary));
     transition: 250ms;
     text-shadow: none;
   }
