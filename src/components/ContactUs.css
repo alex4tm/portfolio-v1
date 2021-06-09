@@ -32,7 +32,9 @@
   min-width: 100%;
   max-width: 70vw;
   max-height: 35vh;
-  background-color:  rgba(var(--color-background-main), 0.5);
+  background-color:  rgba(var(--color-background-second), 0.5);
+  padding-left: 5px;
+  border-radius: 3px;
 }
 
 .contact-wrapper input::placeholder {

@@ -25,20 +25,19 @@ function HeroSection() {
               </text>
             </svg>
             <div className="theme-changer">
-                    <button className="btn btn--outline btn--medium" id='light-theme-btn' onClick={ changeThemeLight }>
+                    <button className="btn btn-custom" id='light-theme-btn' onClick={ changeThemeLight }>
                       light
                     </button>
                     <br></br>
-                    <button className="btn btn--outline btn--medium" id='dark-theme-btn' onClick={ changeThemeDark }>
+                    <button className="btn btn-custom" id='dark-theme-btn' onClick={ changeThemeDark }>
                       dark
                     </button>
                      <br></br>
-                    <button className="btn btn--outline btn--medium" id='default-theme-btn' onClick={ changeThemeDefault }>
+                    <button className="btn btn-custom" id='default-theme-btn' onClick={ changeThemeDefault }>
                       default
                     </button>
             </div>
           </div>
-
           <h1>Hello, I'm Alex</h1>
           <p>Software developer</p>
           <div className='hero-btns'>
@@ -48,10 +47,9 @@ function HeroSection() {
                     <a
                       download={myPdf}
                       href={myPdf}
-                      className="btn btn--outline btn--medium"
-                    >
+                      className="btn btn-custom">
                       Download Resume
-                    <i className="far fa-arrow-alt-circle-down"></i>
+                      <i className="far fa-arrow-alt-circle-down"></i>
                     </a>
                   </div>
                 </Col>
