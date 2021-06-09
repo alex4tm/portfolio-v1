@@ -7,7 +7,7 @@
 
 .about-container {
   background: url('../images/dots.svg') center;
-  box-shadow: inset 0 0 0 2300px rgb(var(--color-background-second), 62%);
+  box-shadow: inset 0 0 0 2300px rgb(var(--color-background-main), 62%);
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -101,6 +101,8 @@
   margin: 0.5rem 0.5rem;
   padding: 0.1rem;
   opacity: 0.8;
+  color: rgb(var(--color-main-300));
+  font-variant: all-petite-caps;
 }
 
 .about-skills .colored:hover,
@@ -108,6 +110,8 @@
   transform: scale(1.05);
   opacity: 1;
   outline: none;
+  color: initial;
+  color: rgb(var(--color-main-700));
 }
 
 i[title]:hover::after,
@@ -122,10 +126,7 @@ i[title]:focus::after {
   color: rgb(var(--color-primary));
 }
 
-[class^=devicon-], [class*=" devicon-"] {
-  color: rgb(var(--color-main-300)) !important;
-  font-variant: all-petite-caps !important;
-}
+
 @media only screen and (max-width: 1024px) {
   .about-content {
     flex-direction: column;

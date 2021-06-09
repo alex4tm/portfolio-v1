@@ -1,13 +1,13 @@
 :root {
   scroll-padding-top: 60px;
   scroll-behavior: smooth;
-  --color-background-main: 245, 245, 245;
-  --color-background-second: 225, 225, 225;
-  --color-background-third: 205, 205, 205;
-  --color-main-700: 23, 23, 23;
-  --color-main-500: 48, 48, 48;
-  --color-main-300: 68, 68, 69;
-  --color-primary: 122, 222, 133;
+  --color-background-main: 248, 248, 210; /*#F8F8D2*/
+  --color-background-second: 248, 248, 155; /*#F8F89B*/
+  --color-background-third: 248, 248, 99; /*#F8F863*/
+  --color-main-700: 9, 8, 57; /*#090839*/
+  --color-main-500: 9, 8, 77; /*#09084D*/
+  --color-main-300: 9, 8, 107; /*#09086B*/
+  --color-primary: 122, 2, 77; /*#7A024D*/
 }
 
 * {
@@ -28,6 +28,7 @@
 .theme--color {
   color: rgb(var(--color-primary));
 }
+
 *::-webkit-scrollbar {
     width: 0.7rem;
 }
