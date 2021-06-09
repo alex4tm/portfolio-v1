@@ -7,6 +7,7 @@ import './Button.css';
 import myPdf from '../images/CV-ILIESI_ALEXANDRU.pdf';
 import changeThemeLight from './ChangeThemeLight.js'
 import changeThemeDark from './ChangeThemeDark.js'
+import changeThemeDefault from './ChangeThemeDefault.js'
 
 function HeroSection() {
 
@@ -25,11 +26,15 @@ function HeroSection() {
             </svg>
             <div className="theme-changer">
                     <button className="btn btn--outline btn--medium" id='light-theme-btn' onClick={ changeThemeLight }>
-                      light theme
+                      light
                     </button>
-                    <br></br><br></br>
+                    <br></br>
                     <button className="btn btn--outline btn--medium" id='dark-theme-btn' onClick={ changeThemeDark }>
-                      dark theme
+                      dark
+                    </button>
+                     <br></br>
+                    <button className="btn btn--outline btn--medium" id='default-theme-btn' onClick={ changeThemeDefault }>
+                      default
                     </button>
             </div>
           </div>

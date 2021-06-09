@@ -66,12 +66,16 @@
 .theme-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: fit-content;
   align-items: center;
 }
 
 .theme-changer {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 svg text {
