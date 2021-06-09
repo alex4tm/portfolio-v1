@@ -8,7 +8,7 @@ import img2 from '../images/Prism-blue.svg';
 function Projects() {
   return (
     <div className='projects'  id='projects'>
-      <h1>Check out some of my projects</h1>
+      <h1>.projects(<span className="theme--color">self</span>)</h1>
       <div className='projects__container'>
         <div className='projects__wrapper'>
           <ul className='projects__items'>

@@ -21,6 +21,9 @@
   max-width: 1500px;
 }
 
+.navbar-container a {
+  transition: all 1s ease-in-out;
+}
 .navbar-logo {
   color: rgb(var(--color-main-700));
   justify-self: start;
@@ -34,19 +37,10 @@
   transition: all 1s ease-in-out;
 }
 
-.navbar-logo:hover .fa-laptop-code,
-.navbar-logo:focus .fa-laptop-code {
-  color: rgb(var(--hover));
-  transition: 0.7s ease-in-out;
-  transform: scale(1.2) rotateY(360deg);
-  text-shadow: none;
-  outline: none;
-}
-
-.fa-laptop-code {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
-  text-shadow: none;
+.navbar-logo:hover,
+.navbar-logo:focus {
+  color: rgb(var(--color-primary));
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-menu {
@@ -72,13 +66,39 @@
   padding: 0.5rem 1rem;
   height: 100%;
   text-shadow: 1px 1px rgb(var(--color-background-second));
+  transition: all 1s ease-in-out;
+}
+
+.theme--color {
+  transition: all 1s ease-in-out;
+}
+
+.nav-links:hover span.theme--color {
+  transform: translateX(0.2rem);
+}
+
+.show-on-hover {
+  display: none;
+  transition: all 1s ease-in-out;;
+  opacity: 0;
+}
+
+.nav-links:hover .theme--color .show-on-hover {
+    display: inline;
+    color: rgb(var(--color-primary));
+    opacity: 1;
+}
+
+.nav-links:hover .theme--color {
+  color: rgb(var(--color-main-700));
+  opacity: 1;
 }
 
 .nav-links:hover,
 .nav-links:focus {
-  color: rgb(var(--hover));
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.05);
+  color: rgb(var(--color-primary));
+  transition: all 1s ease-in-out;
+  transform: scale(1.02);
 }
 
 .fa-bars {
@@ -107,14 +127,14 @@
     top: 80px;
     left: -100%;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 1s ease-in-out;
   }
 
   .nav-menu.active {
     background: rgb(var(--color-background-main));;
     left: 0;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 1s ease-in-out;
     z-index: 1;
   }
 
@@ -128,7 +148,7 @@
   .nav-links:hover,
   .nav-links:focus {
     background-color: rgb(var(--color-background-main));
-    color: rgb(var(--hover));
+    color: rgb(var(--color-primary));
     border-radius: 0;
     text-shadow: none;
     outline: none;
@@ -141,6 +161,7 @@
     left: 0;
     transform: translate(25%, 50%);
     font-size: 1.5rem;
+    transition: all 1s ease-in-out;
   }
 
   .menu-icon {
@@ -171,14 +192,14 @@
     color: #fff;
     padding: 14px 20px;
     border: 1px solid #fff;
-    transition: all 0.3s ease-out;
+    transition: all 1s ease-in-out;
   }
 
   .nav-links-mobile:hover,
    .nav-links-mobile:focus {
     background: rgb(var(--color-background-main));
     color: rgb(var(--color-main-700));
-    transition: 250ms;
+    transition: all 1s ease-in-out;
     text-shadow: none;
   }
 }

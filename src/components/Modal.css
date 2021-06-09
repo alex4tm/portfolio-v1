@@ -42,7 +42,7 @@
   margin-left: 1.5rem;
   overflow: auto;
   height: 50vh;
-  color: rgb(var(--hover));
+  color: rgb(var(--color-primary));
   text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
 }
 
@@ -51,22 +51,22 @@
 }
 
 .modal-body-info::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 1rem rgba(var(--hover), 0.2);
+    -webkit-box-shadow: inset 0 0 1rem rgba(var(--color-primary), 0.2);
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background-color: rgba(var(--hover), 0.1);
+    background-color: rgba(var(--color-primary), 0.1);
 }
 
 .modal-body-info::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     background: rgba(var(--color-main-700), 0.7);
-    -webkit-box-shadow: inset 0 0 1rem rgba(var(--hover), 0.2);
+    -webkit-box-shadow: inset 0 0 1rem rgba(var(--color-primary), 0.2);
 }
 
 .modal-footer {
   justify-content: space-evenly;
-  color: rgb(var(--hover));
+  color: rgb(var(--color-primary));
   background: rgb(var(--color-background-second));
 }
 

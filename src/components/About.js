@@ -4,7 +4,7 @@ import './About.css'
 function About() {
   return (
     <div className="about-container" id='about'>
-      <h1>.about(me)</h1>
+      <h1>.about(<span className="theme--color">me</span>)</h1>
       <div className="about-content">
         <div className="about-info">
            <h3>I enjoy front-end development making projects look beautiful, but also get a kick out of back-end development and what happens under the hood.</h3>

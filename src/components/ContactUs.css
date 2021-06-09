@@ -36,11 +36,11 @@
 }
 
 .contact-wrapper input::placeholder {
-  color: rgba(var(--hover), 0.8);
+  color: rgba(var(--color-primary), 0.8);
 }
 
 .contact-wrapper textarea::placeholder {
-  color: rgba(var(--hover), 0.8);
+  color: rgba(var(--color-primary), 0.8);
 }
 
 .contact-input textarea {
