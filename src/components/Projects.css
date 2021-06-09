@@ -67,10 +67,16 @@
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .projects__item__link:hover{
   box-shadow: 2px 2px 5px 1px rgb(var(--color-primary), 40%);
+}
+
+.projects__item__link:hover .projects__skills > span {
+  background-color: rgb(var(--color-background-third), 90%);
+  color: rgb(var(--color-main-700), 90%) !important;
 }
 .projects__item__pic-wrap {
   position: relative;
@@ -100,16 +106,10 @@
   transition: all 0.2s linear;
 }
 
-.projects__item__img:hover,
-.projects__item__img:focus {
-  transform: scale(1.05);
-  outline: none;
-}
-
 .projects__item__info {
   background: rgb(var(--color-background-main), 60%);
   padding: 10px 15px 10px;
-  min-height: 138px;
+  min-height: 11rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -141,16 +141,17 @@
 .projects__skills span {
   margin-right: 3px;
   margin-top: 5px;
-  padding: 3px 6px;
-  font-size: 0.8rem;
-  letter-spacing: 0.05rem;
+  padding: 5px 6px !important;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
   background-color: rgb(var(--color-background-third), 40%);
   font-variant: petite-caps;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: rgb(var(--color-main-300)) !important;
+  color: rgb(var(--color-main-500), 70%) !important;
   font-variant: all-petite-caps;
+  transition: all 0.5s ease-in-out;
 }
 
 .projects__skills span:before {
