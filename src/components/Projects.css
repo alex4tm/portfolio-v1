@@ -25,7 +25,7 @@
   width: 90%;
   margin: 0 auto;
   margin-bottom: 20px;
-  background: linear-gradient(to right bottom, rgba(var(--color-primary), 0.2), rgba(var(--color-background-main), 0.3), rgba(var(--color-primary), 0.4), rgba(var(--color-background-main), 0.5), rgba(var(--color-primary), 0.6), rgba(var(--color-background-main), 0.7));
+  background: linear-gradient(to right bottom, rgba(var(--color-primary), 0.1), rgba(var(--color-background-main), 0.3), rgba(var(--color-primary), 0.2), rgba(var(--color-background-main), 0.5), rgba(var(--color-primary), 0.3), rgba(var(--color-background-main), 0.7));
 }
 
 .projects__wrapper {
@@ -64,12 +64,14 @@
   flex-flow: column;
   margin-bottom: 2rem;
   width: 100%;
-  box-shadow: 2px 1px 1px 1px rgba(var(--color-primary), 30%);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
 }
 
+.projects__item__link:hover{
+  box-shadow: 2px 2px 5px 1px rgb(var(--color-primary), 40%);
+}
 .projects__item__pic-wrap {
   position: relative;
   min-width: 85%;

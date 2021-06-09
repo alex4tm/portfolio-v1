@@ -3,12 +3,15 @@
   margin: 0 !important;
   border-radius: 50%;
   background: lightred;
-  background: rgb(var(--color-primary));
-  color: white;
+  background: rgb(var(--color-background-third), 20%);
+  color: rgb(var(--color-main-700));
   border: 0.01rem rgb(var(--color-main-300)) solid;
   font-size: 1.3rem;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+}
+.modal {
+  max-height: 100vh !important;
 }
 
 body.modal-open #root{
@@ -22,13 +25,14 @@ body.modal-open #root{
 }
 
 .modal-content {
-  background-color: rgba(var(--color-background-second));
+  background-color: rgba(var(--color-background-main));
 }
 
 
 .modal-header {
   display: flex;
   justify-content: space-between;
+  background: rgb(var(--color-background-second));
 }
 
 
@@ -41,31 +45,23 @@ body.modal-open #root{
 
 
 .modal-body-info {
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.05rem;
   word-spacing: 0.1rem;
   margin-left: 1.5rem;
   overflow: auto;
   height: 50vh;
   color: rgb(var(--color-main-500));
   text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
+  margin-top: 5px;
+  padding-top: 10px;
 }
 
-.modal-body-info::-webkit-scrollbar {
-    width: 0.5rem;
-}
-
-.modal-body-info::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 1rem rgba(var(--color-primary), 0.2);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background-color: rgba(var(--color-primary), 0.1);
-}
-
-.modal-body-info::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: rgba(var(--color-main-700), 0.7);
-    -webkit-box-shadow: inset 0 0 1rem rgba(var(--color-primary), 0.2);
+.modal-body-info p {
+  padding-top: 9px;
+  margin-top: 5px;
+  scroll-behavior: smooth;
+  margin-block-end: 2rem;
+  margin-block-start: 1rem;
 }
 
 .modal-footer {
@@ -103,7 +99,7 @@ body.modal-open #root{
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 70vw !important;
+    max-width: 80vw !important;
     margin: 1.75rem auto !important;
   }
 }
@@ -111,7 +107,7 @@ body.modal-open #root{
 @media (min-width: 200px) {
   .modal-dialog {
     position: relative;
-    width: 70vw;
+    width: 90vw;
     margin: 1rem auto;
     pointer-events: none;
   }
