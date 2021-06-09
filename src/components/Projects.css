@@ -124,7 +124,7 @@
   align-content: center;
   display: flex;
   padding: 0px 15px;
-  color: rgb(var(--color-primary));
+  color: rgb(var(--color-main-500));
   text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 

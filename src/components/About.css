@@ -26,7 +26,7 @@
   align-items: center;
   align-content: center;
   line-height: 1.5rem;
-  color: rgb(var(--color-primary));
+  color: rgb(var(--color-main-300));
   text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
@@ -97,7 +97,7 @@
   text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 .about-skills .colored {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin: 0.5rem 0.5rem;
   padding: 0.1rem;
   opacity: 0.8;
@@ -114,13 +114,18 @@ i[title]:hover::after,
 i[title]:focus::after {
   content: attr(title);
   position: absolute;
-  top: -40%;
-  left: 15%;
-  font-size: 1rem;
+  top: -30%;
+  left: 1%;
+  font-size: 1.2rem;
   opacity: 1;
   outline: none;
+  color: rgb(var(--color-primary));
 }
 
+[class^=devicon-], [class*=" devicon-"] {
+  color: rgb(var(--color-main-300)) !important;
+  font-variant: all-petite-caps !important;
+}
 @media only screen and (max-width: 1024px) {
   .about-content {
     flex-direction: column;

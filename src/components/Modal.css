@@ -3,12 +3,16 @@
   margin: 0 !important;
   border-radius: 50%;
   background: lightred;
-  background: #b95365;
+  background: rgb(var(--color-primary));
   color: white;
-  border: 0.01rem #8ab9b9 solid;
+  border: 0.01rem rgb(var(--color-main-300)) solid;
   font-size: 1.3rem;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+}
+
+body.modal-open #root{
+  filter: blur(2px);
 }
 
 .close:hover,
@@ -42,7 +46,7 @@
   margin-left: 1.5rem;
   overflow: auto;
   height: 50vh;
-  color: rgb(var(--color-primary));
+  color: rgb(var(--color-main-500));
   text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
 }
 

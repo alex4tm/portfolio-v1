@@ -13,7 +13,7 @@
 }
 
 .carousel-indicators li {
-  background-color: #b95365;
+  background-color: rgb(var(--color-primary));
 }
 
 
@@ -29,7 +29,11 @@
 .carousel-control-next-icon {
   text-decoration: none;
   background-image: none;
-  color: black;
+  color: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  color: transparent;
 }
 
 .carousel-control-prev-icon:hover,
@@ -46,13 +50,13 @@
 {
   content: '>';
   font-size: 2rem;
-  color: #b95365;
+  color: rgb(var(--color-primary));
   text-decoration: none;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 2rem;
-  color: #b95365;
+  color: rgb(var(--color-primary));
   text-decoration: none;
 }
