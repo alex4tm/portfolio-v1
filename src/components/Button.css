@@ -10,12 +10,12 @@
 
 .btn--outline {
   background-color: transparent;
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
   padding: 8px 20px;
-  border: 1px solid rgb(var(--background));
+  border: 1px solid rgb(var(--color-background-main));
   transition: all 0.3s ease-out;
   border-radius: 3px;
-  text-shadow: 1px 1px rgb(var(--primary));
+  text-shadow: 1px 1px rgb(var(--color-background-second));
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 0.1rem;
@@ -33,11 +33,11 @@
 .btn:hover,
 .btn--outline:hover {
   transition: all 0.3s ease-in-out;
-  background: rgb(var(--background));
-  color: rgb(var(--secondary));
+  background: rgb(var(--color-background-main));
+  color: rgb(var(--color-main-700));
   opacity: 0.8;
   outline: none;
-  text-shadow: 1px 1px rgb(var(--primary));
+  text-shadow: 1px 1px rgb(var(--color-background-second));
   transform: scale(0.99) translateX(1%) translateY(-1%);
   box-shadow: 1px 1px rgb(var(--hover)) !important;
 }
@@ -47,10 +47,10 @@
 .btn:focus-within,
 .btn--outline:focus-within {
   transition: all 0.3s ease-in-out;
-  background: rgb(var(--primary));
-  color: rgb(var(--secondary));
+  background: rgb(var(--color-background-second));
+  color: rgb(var(--color-main-700));
   opacity: 1;
-  text-shadow: 1px 1px rgb(var(--primary));
+  text-shadow: 1px 1px rgb(var(--color-background-second));
   transform: scale(0.99) translateX(1%) translateY(-1%);
   box-shadow: 1px 1px rgb(var(--hover)) !important;
 }

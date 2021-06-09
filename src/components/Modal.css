@@ -18,7 +18,7 @@
 }
 
 .modal-content {
-  background-color: rgba(var(--primary));
+  background-color: rgba(var(--color-background-second));
 }
 
 
@@ -31,8 +31,8 @@
 .modal-header h2 {
   margin-left: 40%;
   letter-spacing: 0.2rem;
-  color: rgb(var(--secondary));
-  text-shadow: 0.4px 0.4px rgb(var(--primary));
+  color: rgb(var(--color-main-700));
+  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 
@@ -43,7 +43,7 @@
   overflow: auto;
   height: 50vh;
   color: rgb(var(--hover));
-  text-shadow: 0.2px 0.2px rgb(var(--primary));
+  text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
 }
 
 .modal-body-info::-webkit-scrollbar {
@@ -60,20 +60,20 @@
 .modal-body-info::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(var(--secondary), 0.7);
+    background: rgba(var(--color-main-700), 0.7);
     -webkit-box-shadow: inset 0 0 1rem rgba(var(--hover), 0.2);
 }
 
 .modal-footer {
   justify-content: space-evenly;
   color: rgb(var(--hover));
-  background: rgb(var(--primary));
+  background: rgb(var(--color-background-second));
 }
 
 .modal-footer a {
   text-decoration: none;
-  color: rgb(var(--secondary));
-  text-shadow: 0.2px 0.2px rgb(var(--primary));
+  color: rgb(var(--color-main-700));
+  text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
   padding: 0.5rem;
 }
 .footer-links {
@@ -84,7 +84,7 @@
 }
 .footer-links:hover i,
 .footer-links:focus i {
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
   transition: all 0.3s ease-in-out;
   transform: scale(1.05);
   text-shadow: none;

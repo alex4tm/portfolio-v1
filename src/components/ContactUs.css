@@ -1,6 +1,6 @@
 .contact-container {
-  background: rgb(var(--background), 50%);
-  color: rgb(var(--secondary));
+  background: rgb(var(--color-background-main), 50%);
+  color: rgb(var(--color-main-700));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,8 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(var(--secondary));
-  text-shadow: 0.2px 0.2px rgb(var(--primary));
+  color: rgb(var(--color-main-700));
+  text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
   margin-bottom: 15px;
 }
 .contact-wrapper {
@@ -29,8 +29,9 @@
   min-width: 100%;
   max-width: 70vw;
   max-height: 35vh;
-  background-color:  rgba(var(--background), 0.5);
+  background-color:  rgba(var(--color-background-main), 0.5);
 }
+
 .contact-wrapper input::placeholder {
   color: rgba(var(--hover), 0.8);
 }
@@ -41,7 +42,6 @@
 
 .contact-input textarea {
   min-height: 15vh;
-
 }
 
 .contact-field {
@@ -57,9 +57,9 @@
 }
 
 #submit-btn input {
-  background-color: rgb(var(--background));
-  text-shadow: 0.2px 0.2px rgb(var(--primary));
-  border: 1px solid rgb(var(--secondary));
+  background-color: rgb(var(--color-background-main));
+  text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
+  border: 1px solid rgb(var(--color-main-700));
   margin-bottom: 2rem;
 }
 
@@ -71,14 +71,14 @@
   position: absolute;
   left: 80%;
   top: 25%;
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
 }
 
 #submit-btn input:hover,
 #submit-btn input:focus {
   transition: 0.2s;
   cursor: pointer;
-  color: rgb(var(--secondary)) !important;
+  color: rgb(var(--color-main-700)) !important;
   text-shadow: none;
   outline: none;
 }
@@ -90,7 +90,7 @@
   transition: all 0.5s ease-in-out;
   text-shadow: none;
   outline: none;
-  color: rgb(var(--secondary)) !important;
+  color: rgb(var(--color-main-700)) !important;
 }
 
 @media only screen and (max-width: 400px) {

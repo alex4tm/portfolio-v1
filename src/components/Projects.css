@@ -14,8 +14,8 @@
 .projects h1 {
   text-align: center;
   margin: 40px 0;
-  color: rgb(var(--secondary));
-  text-shadow: 0.4px 0.4px rgb(var(--primary));
+  color: rgb(var(--color-main-700));
+  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .projects__container {
@@ -26,7 +26,7 @@
   width: 90%;
   margin: 0 auto;
   margin-bottom: 20px;
-  background: linear-gradient(to right bottom, rgba(var(--hover), 0.2), rgba(var(--background), 0.3), rgba(var(--hover), 0.4), rgba(var(--background), 0.5), rgba(var(--hover), 0.6), rgba(var(--background), 0.7));
+  background: linear-gradient(to right bottom, rgba(var(--hover), 0.2), rgba(var(--color-background-main), 0.3), rgba(var(--hover), 0.4), rgba(var(--color-background-main), 0.5), rgba(var(--hover), 0.6), rgba(var(--color-background-main), 0.7));
 }
 
 .projects__wrapper {
@@ -52,8 +52,8 @@
 .projects__item h2 {
   z-index: 1;
   position: absolute;
-  color: rgb(var(--secondary));
-  text-shadow: 0.4px 0.4px rgb(var(--primary));
+  color: rgb(var(--color-main-700));
+  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
   padding: 0 auto;
   top: -2.5rem;
   left: 2rem;
@@ -126,7 +126,7 @@
   display: flex;
   padding: 0px 15px;
   color: rgb(var(--hover));
-  text-shadow: 0.4px 0.4px rgb(var(--primary));
+  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .projects__skills {
@@ -142,7 +142,7 @@
   padding: 3px 6px;
   font-size: 0.8rem;
   letter-spacing: 0.05rem;
-  background-color: rgba(var(--background), 0.4);
+  background-color: rgba(var(--color-background-main), 0.4);
   font-variant: petite-caps;
   display: inline-flex;
   align-items: center;

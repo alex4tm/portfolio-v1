@@ -1,8 +1,8 @@
 
 #about h1 {
   margin: 40px 30px;
-  color: rgb(var(--secondary));
-  text-shadow: 0.4px 0.4px rgb(var(--primary));
+  color: rgb(var(--color-main-700));
+  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .about-container {
@@ -25,11 +25,11 @@
   align-content: center;
   line-height: 1.5rem;
   color: rgb(var(--hover));
-  text-shadow: 0.4px 0.4px rgb(var(--primary));
+  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .about-info h3 {
-    border-bottom: 3px ridge rgb(var(--background));
+    border-bottom: 3px ridge rgb(var(--color-background-main));
     line-height: 2rem;
     margin-block-start: 0 !important;
     margin-block-end: 0 !important;
@@ -38,7 +38,7 @@
 }
 
 .about-info ul:last-child {
-    border-bottom: 2px ridge rgb(var(--background));
+    border-bottom: 2px ridge rgb(var(--color-background-main));
 }
 
 .about-info {
@@ -84,8 +84,8 @@
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  color: rgb(var(--secondary));
-  text-shadow: 0.4px 0.4px rgb(var(--primary));
+  color: rgb(var(--color-main-700));
+  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 .about-skills .colored {
   font-size: 2.5rem;

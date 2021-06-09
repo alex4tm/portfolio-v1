@@ -1,5 +1,5 @@
 .navbar {
-  background: rgb(var(--background));
+  background: rgb(var(--color-background-main));
   height: 80px;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
 }
 
 .navbar-logo {
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
   justify-self: start;
   margin: 8px 20px;
   cursor: pointer;
@@ -30,7 +30,7 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  text-shadow: 1px 1px rgb(var(--primary));
+  text-shadow: 1px 1px rgb(var(--color-background-second));
   transition: all 1s ease-in-out;
 }
 
@@ -65,13 +65,13 @@
 }
 
 .nav-links {
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  text-shadow: 1px 1px rgb(var(--primary));
+  text-shadow: 1px 1px rgb(var(--color-background-second));
 }
 
 .nav-links:hover,
@@ -82,7 +82,7 @@
 }
 
 .fa-bars {
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
 }
 
 .nav-links-mobile {
@@ -111,7 +111,7 @@
   }
 
   .nav-menu.active {
-    background: rgb(var(--background));;
+    background: rgb(var(--color-background-main));;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -127,7 +127,7 @@
 
   .nav-links:hover,
   .nav-links:focus {
-    background-color: rgb(var(--background));
+    background-color: rgb(var(--color-background-main));
     color: rgb(var(--hover));
     border-radius: 0;
     text-shadow: none;
@@ -176,8 +176,8 @@
 
   .nav-links-mobile:hover,
    .nav-links-mobile:focus {
-    background: rgb(var(--background));
-    color: rgb(var(--secondary));
+    background: rgb(var(--color-background-main));
+    color: rgb(var(--color-main-700));
     transition: 250ms;
     text-shadow: none;
   }

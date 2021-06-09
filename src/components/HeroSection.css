@@ -1,8 +1,8 @@
 
 .hero-container {
-  background-image:
+/*  background-image:
     linear-gradient(to bottom, rgb(122 154 151 / 52%), rgb(131 134 134 / 50%)),
-    url('../images/alex-sketcher.jpeg');
+    url('../images/alex-sketcher.jpeg');*/
   background-size: contain, cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,18 +26,18 @@
 }
 
 .hero-content > h1 {
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
   font-size: 3.5rem;
-  text-shadow: 1px 1px 1px rgb(var(--primary));
+  text-shadow: 1px 1px 1px rgb(var(--color-background-second));
   letter-spacing: 0.2rem;
 }
 
 .hero-content > p {
-  color: rgb(var(--secondary));
+  color: rgb(var(--color-main-700));
   font-size: 1.7rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  text-shadow: 1px 1px rgb(var(--primary));
+  text-shadow: 1px 1px rgb(var(--color-background-second));
   letter-spacing: 0.1rem;
 }
 
