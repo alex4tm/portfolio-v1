@@ -75,7 +75,14 @@
 }
 
 .skills-icons {
-  background: linear-gradient(180deg, rgba(53, 53, 53, 20%), rgba(232, 178, 99, 20%));
+  background: linear-gradient(180deg,
+    rgb(var(--color-background-second), 30%),
+    rgb(var(--color-background-second), 40%),
+    rgb(var(--color-background-second), 50%),
+    rgb(var(--color-background-second), 60%),
+    rgb(var(--color-background-second), 70%),
+    rgb(var(--color-background-second), 90%)
+    );
 
   border-radius: 35%;
   padding: 1.5rem;
