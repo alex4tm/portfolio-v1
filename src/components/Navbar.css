@@ -40,7 +40,7 @@
 .navbar-logo:hover,
 .navbar-logo:focus {
   color: rgb(var(--color-primary));
-  transition: all 0.2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .nav-menu {
