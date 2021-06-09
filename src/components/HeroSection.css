@@ -3,17 +3,17 @@
 /*  background-image:
     linear-gradient(to bottom, rgb(122 154 151 / 52%), rgb(131 134 134 / 50%)),
     url('../images/alex-sketcher.jpeg');*/
-  background-size: contain, cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url('../images/dots.svg') center;
+  box-shadow: inset 0 0 0 2300px rgb(var(--color-background-second), 62%);
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: inset 0 0 0 2333px rgb(27 94 101 / 42%);
   object-fit: contain;
   word-spacing: 0.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .hero-content {

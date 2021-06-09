@@ -1,5 +1,5 @@
 .navbar {
-  background: rgb(var(--color-background-main));
+  background: rgb(var(--color-background-second));
   height: 80px;
   display: flex;
   justify-content: center;

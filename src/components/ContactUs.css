@@ -1,11 +1,14 @@
 .contact-container {
-  background: rgb(var(--color-background-main), 50%);
+  background: url('../images/dots.svg') center;
+  box-shadow: inset 0 0 0 2300px rgb(var(--color-background-second), 62%);
   color: rgb(var(--color-main-700));
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 40px;
   min-height: 365px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .contact-container h1 {

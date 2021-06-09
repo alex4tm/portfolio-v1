@@ -6,8 +6,8 @@
 }
 
 .about-container {
-  background: url('../images/dots.svg') center center/cover no-repeat;
-  box-shadow: inset 0 0 0 1700px rgb(27 94 101 / 42%);
+  background: url('../images/dots.svg') center;
+  box-shadow: inset 0 0 0 2300px rgb(var(--color-background-second), 62%);
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -17,6 +17,8 @@
   font-family: 'PT Sans', sans-serif;
   word-spacing: 0.2rem;
   letter-spacing: 0.05rem;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .about-content {
