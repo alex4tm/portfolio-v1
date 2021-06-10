@@ -30,10 +30,11 @@
   font-size: 3.5rem;
   text-shadow: 1px 1px 1px rgb(var(--color-background-second));
   letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
 }
 
 .hero-content > p {
-  color: rgb(var(--color-main-700));
+  color: rgb(var(--color-main-500), 70%);
   font-size: 1.7rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
