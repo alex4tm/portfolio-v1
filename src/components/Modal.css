@@ -22,6 +22,7 @@ body.modal-open #root{
 .close:focus {
   transform: rotate3d(0, 0, 1, 90deg);
   outline: none;
+  color: rgb(var(--color-primary));
 }
 
 .modal-content {
@@ -70,22 +71,16 @@ body.modal-open #root{
   background: rgb(var(--color-background-second));
 }
 
-.modal-footer a {
-  text-decoration: none;
+.footer-links i {
+  margin-left: 0.7rem;
+  transition: all 0.5s ease-in-out;
   color: rgb(var(--color-main-700));
-  text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
-  padding: 0.5rem;
 }
-.footer-links {
-  border: 1px solid white;
-  border-radius: 0.5rem;
-  padding: 0.4rem;
-  cursor: pointer;
-}
+
 .footer-links:hover i,
 .footer-links:focus i {
-  color: rgb(var(--color-main-700));
-  transition: all 0.3s ease-in-out;
+  color: rgb(var(--color-primary));
+  transition: all 0.5s ease-in-out;
   transform: scale(1.05);
   text-shadow: none;
   outline: none;

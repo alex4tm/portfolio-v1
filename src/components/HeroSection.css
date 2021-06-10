@@ -47,10 +47,6 @@
 }
 
 
-.hero-btns .btn {
-  margin: 6px;
-}
-
 .fa-arrow-alt-circle-down {
   margin-left: 0.7rem;
 }
@@ -59,6 +55,7 @@
 .btn:focus-within > .fa-arrow-alt-circle-down {
   transform: translateY(10%);
   transition: all 0.3s ease-in-out;
+  color: rgb(var(--color-primary));
   text-shadow: none;
   outline: none;
 }

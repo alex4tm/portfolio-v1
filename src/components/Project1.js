@@ -46,12 +46,22 @@ function Project1(props) {
         </Modal.Body>
         <Modal.Footer>
             <div className="footer-links">
-              <a target="blank" href="https://youknowme.app/">Live</a>
-              <i className="fas fa-satellite-dish"></i>
+              <a
+                target="blank"
+                href="https://youknowme.app/"
+                className="btn btn-custom">
+                Live
+                <i className="fas fa-satellite-dish"></i>
+              </a>
             </div>
             <div className="footer-links">
-              <a target="blank" href="https://github.com/alex4tm/YouKnowMe">Code</a>
-              <i className="fab fa-github"></i>
+              <a
+                target="blank"
+                href="https://github.com/alex4tm/YouKnowMe"
+                className="btn btn-custom">
+                Code
+                <i className="fab fa-github"></i>
+              </a>
             </div>
         </Modal.Footer>
       </Modal>
