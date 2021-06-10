@@ -66,8 +66,13 @@
 .theme-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: fit-content;
+  justify-content: center;
   align-items: center;
+
+}
+
+.theme-wrapper button {
+  transform: scale(0.7);
 }
 
 .theme-changer {
