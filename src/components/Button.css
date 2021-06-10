@@ -2,7 +2,7 @@
 .btn {
   width: fit-content;
   height: auto;
-  color: rgb(var(--color-main-300));
+  color: rgb(var(--color-main-500));
   border-radius: 3px;
   padding: 10px 20px;
   background: transparent;
