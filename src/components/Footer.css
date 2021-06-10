@@ -8,19 +8,20 @@
   margin-top: 0;
 }
 
+
+/* Social Icons */
+.social-icon-link {
+  color: rgb(var(--color-main-700));
+  font-size: 2rem;
+}
+
 .social-icon-link:hover,
 .social-icon-link:focus {
-  color: rgb(var(--color-main-700));
-  transition: all 0.3s ease-in-out;
+  color: rgb(var(--color-primary));
+  transition: all 0.5s ease-in-out;
   transform: scale(1.05);
   text-shadow: none;
   outline: none;
-
-}
-/* Social Icons */
-.social-icon-link {
-  color: rgb(var(--color-primary));
-  font-size: 1.3rem;
 }
 
 .social-media {
