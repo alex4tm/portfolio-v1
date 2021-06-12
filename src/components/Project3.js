@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
 import img2 from '../images/Prism-blue.svg';
 
-function Project2(props) {
+function Project3(props) {
 
   const [lgShow, setLgShow] = useState(false);
   return (
@@ -61,7 +61,7 @@ function Project2(props) {
       </Modal>
 
       <li className='projects__item'>
-        <h2> { props.title } </h2>
+        <h2>{props.title}</h2>
         <Link className='projects__item__link' to={props.path} onClick={() => setLgShow(true)}>
           <figure className='projects__item__pic-wrap' data-category={props.label}>
             <img
@@ -77,6 +77,11 @@ function Project2(props) {
               <Badge className='devicon-redux-plain colored' title='Redux'>Redux</Badge>{' '}
               <Badge className='devicon-redis-plain colored' title='Redis'>Redis</Badge>{' '}
               <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
+              <Badge className='devicon-rails-plain colored' title='Rails'>Rails</Badge>{' '}
+              <Badge className='devicon-react-plain colored' title='React'>React</Badge>{' '}
+              <Badge className='devicon-redux-plain colored' title='Redux'>Redux</Badge>{' '}
+              <Badge className='devicon-redis-plain colored' title='Redis'>Redis</Badge>{' '}
+              <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
             </div>
             <h5 className='projects__item__text'>{props.text}</h5>
           </div>
@@ -86,4 +91,4 @@ function Project2(props) {
   );
 }
 
-export default Project2;
+export default Project3;

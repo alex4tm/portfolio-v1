@@ -23,7 +23,7 @@ function Project1(props) {
       >
         <Modal.Header closeButton>
           <Modal.Title as="h2">
-            YouKnowMe
+            {props.title}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -67,7 +67,7 @@ function Project1(props) {
       </Modal>
 
       <li className='projects__item'>
-        <h2>YouKnowMe</h2>
+        <h2>{props.title}</h2>
         <Link className='projects__item__link' to={props.path} onClick={() => setLgShow(true)}>
           <figure className='projects__item__pic-wrap' data-category={props.label}>
             <img

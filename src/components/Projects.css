@@ -45,6 +45,7 @@
   margin: 0 1rem;
   border-radius: 10px;
   min-width: 40vw;
+  margin-top: 2rem;
 }
 
 .projects__item h2 {
@@ -176,6 +177,10 @@
     margin-bottom: 2rem;
     max-width: 85vw;
   }
+  .projects__item h2 {
+    font-size: 1.5rem;
+    top: -3.5rem;
+  }
   .projects__item__link {
     min-width: 45vw;
   }
@@ -184,5 +189,14 @@
   }
   .projects__container {
     width: 80%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .projects__skills span {
+    margin-right: 3px;
+    margin-top: 3px;
+    padding: 1px 3px !important;
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
   }
 }
