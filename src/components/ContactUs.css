@@ -17,7 +17,6 @@
   align-items: center;
   justify-content: center;
   color: rgb(var(--color-main-700));
-  text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
   margin-bottom: 15px;
 }
 .contact-wrapper {
@@ -82,7 +81,6 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   color: rgb(var(--color-main-700)) !important;
-  text-shadow: none;
   outline: none;
 }
 
@@ -91,7 +89,6 @@
   z-index: 100;
   transform: translateY(-3px) translateX(3px);
   transition: all 0.5s ease-in-out;
-  text-shadow: none;
   outline: none;
   color: rgb(var(--color-main-700)) !important;
 }

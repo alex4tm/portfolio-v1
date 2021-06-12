@@ -41,7 +41,6 @@ body.modal-open #root{
   margin-left: 40%;
   letter-spacing: 0.2rem;
   color: rgb(var(--color-main-700));
-  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 
@@ -52,7 +51,6 @@ body.modal-open #root{
   overflow: auto;
   height: 50vh;
   color: rgb(var(--color-main-500));
-  text-shadow: 0.2px 0.2px rgb(var(--color-background-second));
   margin-top: 5px;
   padding-top: 10px;
 }
@@ -82,7 +80,6 @@ body.modal-open #root{
   color: rgb(var(--color-primary));
   transition: all 0.5s ease-in-out;
   transform: scale(1.05);
-  text-shadow: none;
   outline: none;
 }
 

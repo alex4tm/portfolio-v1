@@ -14,7 +14,6 @@
   text-align: center;
   margin: 40px 0;
   color: rgb(var(--color-main-700));
-  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .projects__container {
@@ -52,7 +51,6 @@
   z-index: 1;
   position: absolute;
   color: rgb(var(--color-main-700));
-  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
   padding: 0 auto;
   top: -2.5rem;
   left: 2rem;
@@ -127,7 +125,6 @@
   display: flex;
   padding: 0px 15px;
   color: rgb(var(--color-main-500));
-  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .projects__skills {

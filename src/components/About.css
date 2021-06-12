@@ -2,7 +2,6 @@
 #about h1 {
   margin: 40px 30px;
   color: rgb(var(--color-main-700));
-  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .about-container {
@@ -27,7 +26,6 @@
   align-content: center;
   line-height: 1.5rem;
   color: rgb(var(--color-main-300));
-  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 
 .about-info h3 {
@@ -91,7 +89,6 @@
   justify-content: center;
   margin-top: 3rem;
   color: rgb(var(--color-main-700));
-  text-shadow: 0.4px 0.4px rgb(var(--color-background-second));
 }
 .about-skills .colored {
   font-size: 3rem;

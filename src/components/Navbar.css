@@ -35,7 +35,6 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
-  text-shadow: 1px 1px rgb(var(--color-background-second));
   transition: all 1s ease-in-out;
 }
 
@@ -69,7 +68,6 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
-  text-shadow: 1px 1px rgb(var(--color-background-second));
   transition: all 1s ease-in-out;
 }
 
@@ -157,7 +155,6 @@
     background-color: rgb(var(--color-background-main));
     color: rgb(var(--color-primary));
     border-radius: 0;
-    text-shadow: none;
     outline: none;
   }
 
@@ -187,7 +184,6 @@
   }
 
   .nav-links-mobile {
-    text-shadow: none;
     display: block;
     text-align: center;
     margin: 2rem auto;
@@ -207,7 +203,6 @@
     background: rgb(var(--color-background-main));
     color: rgb(var(--color-main-700));
     transition: all 1s ease-in-out;
-    text-shadow: none;
   }
 }
 
