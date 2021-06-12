@@ -16,7 +16,7 @@ function Projects() {
             <Project1
               title="YouKnowMe"
               src={img1}
-              text='An app that allows you to save all your preferences and dietary requirements and makes it easy to share them with restaurants.'
+              text='An app that allows you to save all your preferences and share them with restaurants.'
               path='/'
             />
             <Project2
