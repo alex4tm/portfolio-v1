@@ -107,7 +107,7 @@
 }
 
 .projects__item__info {
-  background: rgb(var(--color-background-main), 60%);
+  background: rgb(var(--color-background-second), 50%);
   padding: 10px 15px 10px;
   min-height: 11rem;
   flex-direction: column;
@@ -143,7 +143,7 @@
   padding: 5px 6px !important;
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  background-color: rgb(var(--color-background-third), 40%);
+  background-color: rgb(var(--color-background-third), 70%);
   font-variant: petite-caps;
   display: inline-flex;
   align-items: center;
