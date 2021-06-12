@@ -23,7 +23,7 @@ function Navbar() {
               <a href="#about" className="nav-links" onClick={closeMobileMenu}>.about<span className="theme--color">(<span className="show-on-hover">me</span>)</span></a>
             </li>
             <li className='nav-item nav-projects'>
-              <a href="#projects" className="nav-links" onClick={closeMobileMenu}>.projects<span className="theme--color">(<span className="show-on-hover"><i class="fas fa-tools"></i></span>)</span></a>
+              <a href="#projects" className="nav-links" onClick={closeMobileMenu}>.projects<span className="theme--color">(<span className="show-on-hover"><i className="fas fa-tools"></i></span>)</span></a>
             </li>
             <li className='nav-item nav-contact'>
               <a href="#contact" className="nav-links" onClick={closeMobileMenu}>.contact<span className="theme--color">(<span className="show-on-hover">me</span>)</span></a>

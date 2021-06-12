@@ -69,12 +69,13 @@
 }
 
 .projects__item__link:hover{
-  box-shadow: 2px 2px 5px 1px rgb(var(--color-primary), 40%);
+  box-shadow: 5px 5px 20px 5px rgb(var(--color-primary), 10%);
 }
 
 .projects__item__link:hover .projects__skills > span {
   background-color: rgb(var(--color-background-third), 90%);
   color: rgb(var(--color-main-700), 90%) !important;
+  box-shadow: 1px 1px 5px 1px rgb(var(--color-primary), 10%);
 }
 .projects__item__pic-wrap {
   position: relative;
@@ -149,6 +150,7 @@
   color: rgb(var(--color-main-500), 70%) !important;
   font-variant: all-petite-caps;
   transition: all 0.5s ease-in-out;
+  line-height: 1.5rem;
 }
 
 .projects__skills span:before {

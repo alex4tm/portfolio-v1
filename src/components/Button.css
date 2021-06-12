@@ -10,9 +10,9 @@
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgb(var(--color-main-700), 50%),
-              7px 7px 20px 0px rgb(var(--color-main-700), 10%),
-              4px 4px 5px 0px rgb(var(--color-main-700), 10%);
+  box-shadow: inset 2px 2px 2px 0px rgb(var(--color-main-700), 10%),
+              5px 5px 20px 0px rgb(var(--color-main-700), 10%),
+              2px 2px 3px 0px rgb(var(--color-main-700), 10%);
   outline: none;
   text-decoration: none;
   letter-spacing: 0.1rem;
@@ -20,8 +20,8 @@
 
 .btn-custom {
   background: linear-gradient(0deg,
-              rgb(var(--color-background-third), 100%) 0%,
-              rgb(var(--color-background-main), 100%) 100%);
+              rgb(var(--color-background-third), 10%) 0%,
+              rgb(var(--color-background-main), 10%) 100%);
   border: 1px solid rgb(var(--color-main-300), 20%);
 
 }
@@ -34,7 +34,7 @@
 .btn-custom:focus,
 .btn-custom:focus-within {
   color: rgb(var(--color-main-700));
-  box-shadow: 2px 2px 4px 0 rgb(var(--color-main-700), 50%),
+  box-shadow: 2px 2px 4px 0 rgb(var(--color-main-700), 30%),
               -2px -2px 4px 0 rgb(var(--color-main-700), 50%),
               inset -2px -2px 4px 0 rgb(var(--color-main-700), 20%),
               inset 2px 2px 4px 0 rgb(var(--color-main-700), 20%);
