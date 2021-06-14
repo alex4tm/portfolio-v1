@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../images/mobile.gif';
-import img2 from '../images/demo1.mp4';
-import img3 from '../images/youknowmelanding.jpg';
+import img1 from '../images/youknowme-user.gif';
+import img2 from '../images/youknowme-restaurant.gif';
+import img3 from '../images/youknowme-whatsap.jpg';
 
 import './Carousel.css';
 import './Modal.css';
@@ -30,10 +30,10 @@ function Project1(props) {
           <div className="carousel-container">
             <Carousel className="carousel-wrapper" interval={5000000} pause="hover">
               <Carousel.Item>
-                <img src={img1}alt={img1} />
+                <img src={img1}alt={img1} id="mobile-gif" />
               </Carousel.Item>
               <Carousel.Item>
-                <video src={img2} type="video/mp4" width="320" height="240" autoPlay muted loop playbackrate="0.5" />
+                <img src={img2}alt={img2} />
               </Carousel.Item>
               <Carousel.Item>
                 <img src={img3} alt={img3} />

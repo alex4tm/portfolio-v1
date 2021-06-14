@@ -3,8 +3,8 @@ import './Projects.css';
 import Project1 from './Project1';
 import Project2 from './Project2';
 // import Project3 from './Project3';
-import img1 from '../images/youknowmelanding.jpg'
-import img2 from '../images/notslackchat.jpg';
+import img1 from '../images/youknowme-landing.jpg'
+import img2 from '../images/not-slack-chat.jpg';
 
 function Projects() {
   return (

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import main from '../images/notslackchat.jpg';
-import gif from '../images/notslackchat.gif';
-import signup from '../images/notslackchatsignup.jpg';
+import main from '../images/not-slack-chat.jpg';
+import gif from '../images/not-slack-chat.gif';
+import signup from '../images/not-slack-chat-signup.jpg';
 
 function Project2(props) {
 

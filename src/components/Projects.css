@@ -143,6 +143,9 @@
   flex-flow: wrap;
 }
 
+#mobile-gif {
+  width: auto;
+}
 .projects__skills span {
   margin: 0.4rem 0.2rem;
   padding: 5px 6px !important;
