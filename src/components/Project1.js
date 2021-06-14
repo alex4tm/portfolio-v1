@@ -28,7 +28,7 @@ function Project1(props) {
         </Modal.Header>
         <Modal.Body>
           <div className="carousel-container">
-            <Carousel className="carousel-wrapper" interval={5000000} pause="hover">
+            <Carousel className="carousel-wrapper" interval={20000} pause="hover">
               <Carousel.Item>
                 <img src={img1}alt={img1} id="mobile-gif" />
               </Carousel.Item>
