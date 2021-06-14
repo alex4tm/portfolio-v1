@@ -37,7 +37,16 @@ function Project2(props) {
             </Carousel>
           </div>
           <div className="modal-body-info">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos persLorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.piciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.</p>
+              <div className="projects__skills">
+                <Badge className='devicon-rails-plain colored' title='Rails'>Rails</Badge>{' '}
+                <Badge className='devicon-react-plain colored' title='React'>React</Badge>{' '}
+                <Badge className='devicon-redux-plain colored' title='Redux'>Redux</Badge>{' '}
+                <Badge className='devicon-redis-plain colored' title='Redis'>Redis</Badge>{' '}
+                <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
+            </div>
+            <h4>Description:</h4>
+            <p>This is a slack-like-chat that is buit on Rails, React, authentication using devise gem, PostgreSQL, Redis and action cable for real-time messages.</p>
+            <p>The app was built with the sole purpose of learning more about implementing Rails, React, Redis and deploy it to production as a smooth chat app.</p>
           </div>
         </Modal.Body>
         <Modal.Footer>

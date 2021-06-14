@@ -22,7 +22,7 @@ function Projects() {
             <Project2
               title="Not Slack Chat"
               src={img2}
-              text='Messaging WebApp with authentication.'
+              text='Instant chat app built on Rails using Action Cable and Websockets.'
               path='/'
             />
 {/*            <Project3
