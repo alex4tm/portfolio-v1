@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import img2 from '../images/notslackchat.jpg';
+import main from '../images/notslackchat.jpg';
+import gif from '../images/notslackchat.gif';
+import signup from '../images/notslackchatsignup.jpg';
 
 function Project2(props) {
 
@@ -22,15 +24,15 @@ function Project2(props) {
         </Modal.Header>
         <Modal.Body>
           <div className="carousel-container">
-            <Carousel className="carousel-wrapper" interval={5000000} pause="hover">
+            <Carousel className="carousel-wrapper" interval={15000} pause="hover">
               <Carousel.Item>
-                <img src={img2}alt={img2} />
+                <img src={gif}alt={gif} />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={img2}alt={img2} />
+                <img src={main}alt={main} />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={img2} alt={img2} />
+                <img src={signup} alt={signup} />
               </Carousel.Item>
             </Carousel>
           </div>

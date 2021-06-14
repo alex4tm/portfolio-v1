@@ -89,13 +89,13 @@ svg text {
 
 
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 868px) {
   .hero-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -15%;
+    margin-top: -5%;
     margin-right: 4%;
   }
 }
