@@ -5,7 +5,6 @@ import '../App.css';
 import './HeroSection.css';
 import './Button.css';
 import myPdf from '../images/CV-ILIESI_ALEXANDRU.pdf';
-import defaultIcon from '../images/default.png';
 import changeThemeLight from './ChangeThemeLight.js'
 import changeThemeDark from './ChangeThemeDark.js'
 import changeThemeDefault from './ChangeThemeDefault.js'
@@ -31,7 +30,7 @@ function HeroSection() {
                       light
                     </button>
                     <button className="btn btn-custom" id='default-theme-btn' onClick={ changeThemeDefault }>
-                      <i class="fas fa-user-cog"></i>
+                      <i className="fas fa-user-cog"></i>
                       default
                     </button>
                     <button className="btn btn-custom" id='dark-theme-btn' onClick={ changeThemeDark }>
