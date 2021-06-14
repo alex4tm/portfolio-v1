@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import Project1 from './Project1';
 import Project2 from './Project2';
-import Project3 from './Project3';
+// import Project3 from './Project3';
 import img1 from '../images/youknowmelanding.jpg'
 import img2 from '../images/Prism-blue.svg';
 
@@ -25,7 +25,7 @@ function Projects() {
               text='Messaging WebApp with authentication.'
               path='/'
             />
-            <Project3
+{/*            <Project3
               title="Test"
               src={img2}
               text='TBA'
@@ -36,7 +36,7 @@ function Projects() {
               src={img2}
               text='TBA'
               path='/'
-            />
+            />*/}
           </ul>
         </div>
       </div>
