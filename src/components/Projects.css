@@ -92,6 +92,7 @@
 }
 
 .projects__item__img {
+  opacity: 0.7;
   position: absolute;
   top: 0;
   right: 0;
@@ -103,7 +104,11 @@
   height: 100%;
   max-height: 100%;
   object-fit: cover;
-  transition: all 0.2s linear;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects__item__link:hover .projects__item__img {
+  opacity: 1;
 }
 
 .projects__item__info {
