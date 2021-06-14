@@ -1,4 +1,3 @@
-import './ChangeTheme.css';
 
 const changeThemeDark = () => {
 

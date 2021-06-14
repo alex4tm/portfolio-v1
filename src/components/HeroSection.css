@@ -68,6 +68,22 @@
 
 .theme-wrapper button {
   transform: scale(0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme-wrapper i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: rgb(var(--color-primary));
+  font-weight: bold;
+}
+
+#default-theme-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .theme-changer {
@@ -76,6 +92,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#text_path {
+  fill: rgb(var(--color-primary), 60%);
+
 }
 
 svg text {
