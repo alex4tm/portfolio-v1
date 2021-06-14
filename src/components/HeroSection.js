@@ -28,13 +28,11 @@ function HeroSection() {
                     <button className="btn btn-custom" id='light-theme-btn' onClick={ changeThemeLight }>
                       light
                     </button>
-                    <br></br>
-                    <button className="btn btn-custom" id='dark-theme-btn' onClick={ changeThemeDark }>
-                      dark
-                    </button>
-                     <br></br>
                     <button className="btn btn-custom" id='default-theme-btn' onClick={ changeThemeDefault }>
                       default
+                    </button>
+                    <button className="btn btn-custom" id='dark-theme-btn' onClick={ changeThemeDark }>
+                      dark
                     </button>
             </div>
           </div>
