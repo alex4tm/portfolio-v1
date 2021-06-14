@@ -41,7 +41,21 @@ function Project1(props) {
             </Carousel>
           </div>
           <div className="modal-body-info">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos persLorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.piciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde neque, perferendis beatae minima exercitationem distinctio, voluptatem, dolor repudiandae ipsam hic eligendi minus quos perspiciatis! Omnis eligendi accusantium nisi voluptatibus, soluta.</p>
+              <div className="projects__skills">
+                <Badge className='devicon-rails-plain colored' title='Rails'>Rails</Badge>{' '}
+                <Badge className='devicon-ruby-plain-wordmark colored' title='Ruby'>Ruby</Badge>{' '}
+                <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
+                <Badge className='devicon-postgresql-plain-wordmark colored' title='Postgresql'>Postgresql</Badge>{' '}
+            </div>
+            <h4>Description:</h4>
+            <p>This project was made in the week 8 and 9 of the Le Wagon - Dubai Bootcamp , batch #562. The project was pitched by me and was chosen as #1 by my fellow colleagues as preference to work on.
+               The initial ideea was to sum up all of the preferences of a certain person (Hotels, Travel, Restaurants, etc) but for the purpose of focusing on a certain part at start we chose to go with the Restaurant and food preferences.</p>
+            <h4>Other tools and technologies used in the project:</h4>
+                <p>Authenticaion implemented using devise gem and uthorization with pundit gem</p>
+                <p>Booking confirmation done using Twillio - whatsap</p>
+                <p>Restaurant location implemented with Waze API</p>
+                <p>Image hosting - Cloudinary</p>
+                <p>Bootstrap and Sass for styling</p>
           </div>
         </Modal.Body>
         <Modal.Footer>

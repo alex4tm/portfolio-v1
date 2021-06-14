@@ -5,10 +5,10 @@
 
 .carousel-item img {
   border-radius: 1.5rem;
-  width: 65%;
+  width: 68%;
   margin: 0 auto;
   height: 50vh;
-  object-fit: cover;
+  object-fit: scale-down;
   object-position: 50% 50%;
 }
 
@@ -59,4 +59,13 @@
   font-size: 2rem;
   color: rgb(var(--color-primary));
   text-decoration: none;
+}
+
+@media all and (max-width: 976px) {
+  .carousel-item img {
+
+  width: 100%;
+  height: 50vh;
+  object-fit: scale-down;
+  }
 }
