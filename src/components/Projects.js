@@ -4,7 +4,7 @@ import Project1 from './Project1';
 import Project2 from './Project2';
 // import Project3 from './Project3';
 import img1 from '../images/youknowmelanding.jpg'
-import img2 from '../images/Prism-blue.svg';
+import img2 from '../images/notslackchat.jpg';
 
 function Projects() {
   return (

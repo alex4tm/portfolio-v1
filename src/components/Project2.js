@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import img2 from '../images/Prism-blue.svg';
+import img2 from '../images/notslackchat.jpg';
 
 function Project2(props) {
 
