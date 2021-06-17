@@ -20,18 +20,19 @@ function Projects() {
               text='An app that allows you to save all your preferences and share them with restaurants.'
               path='/'
             />
-            <Project2
-              title="Not Slack Chat"
-              src={img2}
-              text='Instant chat app built on Rails using Action Cable and Websockets.'
-              path='/'
-            />
             <Project3
               title="noTesla"
               src={img3}
               text='Tesla landing page clone'
               path='/'
             />
+            <Project2
+              title="Not Slack Chat"
+              src={img2}
+              text='Instant chat app built on Rails using Action Cable and Websockets.'
+              path='/'
+            />
+
 {/*            <Project3
               title="Test"
               src={img2}
