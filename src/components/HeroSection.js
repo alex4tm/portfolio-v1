@@ -4,7 +4,7 @@ import { Row, Col } from "reactstrap";
 import '../App.css';
 import './HeroSection.css';
 import './Button.css';
-import myPdf from '../images/CV-ILIESI_ALEXANDRU.pdf';
+import myCv from '../images/CV-ILIESI-ALEXANDRU.pdf';
 import changeThemeLight from './ChangeThemeLight.js'
 import changeThemeDark from './ChangeThemeDark.js'
 import changeThemeDefault from './ChangeThemeDefault.js'
@@ -46,8 +46,8 @@ function HeroSection() {
                 <Col md={{ size: 8, offset: 2 }}>
                   <div >
                     <a
-                      download={myPdf}
-                      href={myPdf}
+                      download={myCv}
+                      href={myCv}
                       className="btn btn-custom">
                       Download Resume
                       <i className="far fa-arrow-alt-circle-down"></i>
