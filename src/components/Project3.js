@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import img2 from '../images/Prism-blue.svg';
+import img1 from '../images/tesla-burgermenu.jpg';
+import img2 from '../images/tesla-roofs.jpg';
+import img3 from '../images/tesla-footer.jpg';
 
 function Project3(props) {
 
@@ -24,13 +26,13 @@ function Project3(props) {
           <div className="carousel-container">
             <Carousel className="carousel-wrapper" interval={5000000} pause="hover">
               <Carousel.Item>
-                <img src={img2}alt={img2} />
+                <img src={img1}alt={img1} />
               </Carousel.Item>
               <Carousel.Item>
                 <img src={img2}alt={img2} />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={img2} alt={img2} />
+                <img src={img3} alt={img3} />
               </Carousel.Item>
             </Carousel>
           </div>
@@ -42,7 +44,7 @@ function Project3(props) {
             <div className="footer-links">
               <a
                 target="blank"
-                href="https://rails--chat-redux.herokuapp.com/"
+                href="https://not-teslaclone.herokuapp.com/"
                 className="btn btn-custom">
                 Live
                 <i className="fas fa-satellite-dish"></i>
@@ -51,7 +53,7 @@ function Project3(props) {
             <div className="footer-links">
               <a
                 target="blank"
-                href="https://github.com/alex4tm/rails-react-chat"
+                href="https://github.com/alex4tm/tesla-clone"
                 className="btn btn-custom">
                 Code
                 <i className="fab fa-github"></i>
@@ -72,15 +74,9 @@ function Project3(props) {
           </figure>
           <div className='projects__item__info'>
             <div className="projects__skills">
-              <Badge className='devicon-rails-plain colored' title='Rails'>Rails</Badge>{' '}
+              <Badge className='devicon-nodejs-plain colored' title='NoneJS'>Node.js</Badge>{' '}
               <Badge className='devicon-react-plain colored' title='React'>React</Badge>{' '}
               <Badge className='devicon-redux-plain colored' title='Redux'>Redux</Badge>{' '}
-              <Badge className='devicon-redis-plain colored' title='Redis'>Redis</Badge>{' '}
-              <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
-              <Badge className='devicon-rails-plain colored' title='Rails'>Rails</Badge>{' '}
-              <Badge className='devicon-react-plain colored' title='React'>React</Badge>{' '}
-              <Badge className='devicon-redux-plain colored' title='Redux'>Redux</Badge>{' '}
-              <Badge className='devicon-redis-plain colored' title='Redis'>Redis</Badge>{' '}
               <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
             </div>
             <h5 className='projects__item__text'>{props.text}</h5>

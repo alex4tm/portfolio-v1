@@ -2,9 +2,10 @@ import React from 'react';
 import './Projects.css';
 import Project1 from './Project1';
 import Project2 from './Project2';
-// import Project3 from './Project3';
+import Project3 from './Project3';
 import img1 from '../images/youknowme-landing.jpg'
 import img2 from '../images/not-slack-chat.jpg';
+import img3 from '../images/tesla-landing.jpg';
 
 function Projects() {
   return (
@@ -25,13 +26,13 @@ function Projects() {
               text='Instant chat app built on Rails using Action Cable and Websockets.'
               path='/'
             />
-{/*            <Project3
-              title="Test"
-              src={img2}
-              text='TBA'
+            <Project3
+              title="noTesla"
+              src={img3}
+              text='Tesla landing page clone'
               path='/'
             />
-            <Project3
+{/*            <Project3
               title="Test"
               src={img2}
               text='TBA'
