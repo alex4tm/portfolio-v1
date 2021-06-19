@@ -127,3 +127,10 @@ i[title]:focus::after {
   }
 }
 
+@media only screen and (max-width: 300px) {
+  #about h1 {
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+}
+

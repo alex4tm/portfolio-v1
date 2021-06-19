@@ -118,7 +118,7 @@
   display: flex;
   background: rgb(var(--color-background-second), 50%);
   padding: 10px 15px 10px;
-  min-height: 11rem;
+  /*min-height: 11rem;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -189,8 +189,9 @@
     max-width: 85vw;
   }
   .projects__item h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     top: -3.5rem;
+    left: 0.5rem;
   }
   .projects__item__link {
     min-width: 45vw;
