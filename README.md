@@ -21,8 +21,8 @@ This is the version one of my portfolio. Built using create react app and a few 
 #### Technologies
 
 - Node.JS
-- Javascript
-- React Bootstrap
+- Javascript - svg animation and theme changing and saving preference in local storage.
+- React Bootstrap - modal, carousel and badges
 - Devicon - skills badges
 - emailjs-com - contact-email form
 - hosted on Heroku
