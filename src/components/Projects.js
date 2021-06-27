@@ -3,9 +3,11 @@ import './Projects.css';
 import Project1 from './Project1';
 import Project2 from './Project2';
 import Project3 from './Project3';
+import Project4 from './Project4';
 import img1 from '../images/youknowme-landing.jpg'
 import img2 from '../images/not-slack-chat.jpg';
 import img3 from '../images/tesla-landing.jpg';
+import img4 from '../images/api-client-landing.jpg';
 
 function Projects() {
   return (
@@ -20,6 +22,12 @@ function Projects() {
               text='An app that allows you to save all your preferences and share them with restaurants.'
               path='/'
             />
+            <Project4
+              title="Api-Client"
+              src={img4}
+              text='Easy to use, lightweight and postman alternative api-client.'
+              path='/'
+            />
             <Project3
               title="noTesla"
               src={img3}
@@ -32,13 +40,6 @@ function Projects() {
               text='Instant chat app built on Rails using Action Cable and Websockets.'
               path='/'
             />
-
-{/*            <Project3
-              title="Test"
-              src={img2}
-              text='TBA'
-              path='/'
-            />*/}
           </ul>
         </div>
       </div>

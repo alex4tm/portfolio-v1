@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import main from '../images/not-slack-chat.jpg';
-import gif from '../images/not-slack-chat.gif';
-import signup from '../images/not-slack-chat-signup.jpg';
+import img1 from '../images/api-client-main.jpg';
+import img2 from '../images/api-client-methods.jpg';
+import img3 from '../images/api-client-landing.jpg';
 
-function Project2(props) {
+function Project4(props) {
 
   const [lgShow, setLgShow] = useState(false);
   return (
@@ -24,36 +24,39 @@ function Project2(props) {
         </Modal.Header>
         <Modal.Body>
           <div className="carousel-container">
-            <Carousel className="carousel-wrapper" interval={15000} pause="hover">
+            <Carousel className="carousel-wrapper" interval={3000} pause="hover">
               <Carousel.Item>
-                <img src={gif}alt={gif} />
+                <img src={img1}alt={img1} />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={main}alt={main} />
+                <img src={img2}alt={img2} />
               </Carousel.Item>
               <Carousel.Item>
-                <img src={signup} alt={signup} />
+                <img src={img3} alt={img3} />
               </Carousel.Item>
             </Carousel>
           </div>
           <div className="modal-body-info">
-              <div className="projects__skills">
-                <Badge className='devicon-rails-plain colored' title='Rails'>Rails</Badge>{' '}
-                <Badge className='devicon-react-plain colored' title='React'>React</Badge>{' '}
-                <Badge className='devicon-redux-plain colored' title='Redux'>Redux</Badge>{' '}
-                <Badge className='devicon-redis-plain colored' title='Redis'>Redis</Badge>{' '}
-                <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
+            <div className="projects__skills">
+              <Badge className='devicon-nodejs-plain colored' title='NoneJS'>Node.js</Badge>{' '}
+              <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
+              <Badge className='devicon-bootstrap-plain colored' title='Bootstrap'>Bootstrap</Badge>{' '}
             </div>
             <h4>Description:</h4>
-            <p>This is a slack-like-chat that is buit on Rails, React, authentication using devise gem, PostgreSQL, Redis and action cable for real-time messages.</p>
-            <p>The app was built with the sole purpose of learning more about implementing Rails, React, Redis and deploy it to production as a smooth chat app.</p>
+              <p>Api-Client project built as an easy and lightweight tool for basic REST API methods.</p>
+            <h4>Tools and technologies used in the project:</h4>
+                <p> Node.js </p>
+                <p> codemirror </p>
+                <p> axios </p>
+                <p> bootstrap </p>
+                <p> deployed on heroku </p>
           </div>
         </Modal.Body>
         <Modal.Footer>
             <div className="footer-links">
               <a
                 target="blank"
-                href="https://rails--chat-redux.herokuapp.com/"
+                href="https://api--client.herokuapp.com/"
                 className="btn btn-custom">
                 Live
                 <i className="fas fa-satellite-dish"></i>
@@ -62,7 +65,7 @@ function Project2(props) {
             <div className="footer-links">
               <a
                 target="blank"
-                href="https://github.com/alex4tm/rails-react-chat"
+                href="https://github.com/alex4tm/api_client"
                 className="btn btn-custom">
                 Code
                 <i className="fab fa-github"></i>
@@ -72,7 +75,7 @@ function Project2(props) {
       </Modal>
 
       <li className='projects__item'>
-        <h2> { props.title } </h2>
+        <h2>{props.title}</h2>
         <Link className='projects__item__link' to={props.path} onClick={() => setLgShow(true)}>
           <figure className='projects__item__pic-wrap' data-category={props.label}>
             <img
@@ -83,11 +86,9 @@ function Project2(props) {
           </figure>
           <div className='projects__item__info'>
             <div className="projects__skills">
-              <Badge className='devicon-rails-plain colored' title='Rails'>Rails</Badge>{' '}
-              <Badge className='devicon-react-plain colored' title='React'>React</Badge>{' '}
-              <Badge className='devicon-redux-plain colored' title='Redux'>Redux</Badge>{' '}
-              <Badge className='devicon-redis-plain colored' title='Redis'>Redis</Badge>{' '}
+              <Badge className='devicon-nodejs-plain colored' title='NoneJS'>Node.js</Badge>{' '}
               <Badge className='devicon-javascript-plain colored' title='JavaScript'>JavaScript</Badge>{' '}
+              <Badge className='devicon-bootstrap-plain colored' title='Bootstrap'>Bootstrap</Badge>{' '}
             </div>
             <h5 className='projects__item__text'>{props.text}</h5>
           </div>
@@ -97,4 +98,4 @@ function Project2(props) {
   );
 }
 
-export default Project2;
+export default Project4;
