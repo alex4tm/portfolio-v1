@@ -217,3 +217,10 @@
     letter-spacing: 0.05rem;
   }
 }
+
+.disabled-link {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+  text-decoration: none;
+}
