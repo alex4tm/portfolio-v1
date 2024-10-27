@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import Badge from 'react-bootstrap/Badge';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../images/cad-case-studies.png';
-import img2 from '../images/cad-services.png';
-import img3 from '../images/cad-clients.png';
+import img1 from '../images/tesla-burgermenu.jpg';
+import img2 from '../images/tesla-roofs.jpg';
+import img3 from '../images/tesla-footer.jpg';
 
 function Project3(props) {
   const [lgShow, setLgShow] = useState(false);
@@ -35,43 +35,52 @@ function Project3(props) {
           </div>
           <div className='modal-body-info'>
             <div className='projects__skills'>
-              <Badge className='devicon-nextjs-plain colored' title='Next.js'>
-                Next.js
-              </Badge>{" "}
+              <Badge className='devicon-nodejs-plain colored' title='NoneJS'>
+                Node.js
+              </Badge>{' '}
               <Badge className='devicon-react-plain colored' title='React'>
                 React
-              </Badge>{" "}
+              </Badge>{' '}
+              <Badge className='devicon-redux-plain colored' title='Redux'>
+                Redux
+              </Badge>{' '}
               <Badge
-                className='devicon-tailwindcss-plain colored'
-                title='Tailwind'
+                className='devicon-javascript-plain colored'
+                title='JavaScript'
               >
-                Tailwind
-              </Badge>{" "}
+                JavaScript
+              </Badge>{' '}
             </div>
             <h4>Description:</h4>
             <p>
-              Cad-dev is a marketing website for the software development
-              company i work with and freelance as fullstack developer. clients.
-            </p>
-            <p>
-              Project built to showcase the company's services, case studies and
-              clients.
+              Tesla Clone Project built to showcase use of styled components,
+              react, redux.
             </p>
             <h4>Other tools and technologies used in the project:</h4>
-            <p> netlify </p>
-            <p> javascript </p>
-            <p> cloudinary </p>
+            <p> material UI </p>
+            <p> react-reveal </p>
+            <p> deployed on heroku </p>
           </div>
         </Modal.Body>
         <Modal.Footer>
           <div className='footer-links'>
             <a
               target='blank'
-              href='https://cad-dev.com'
-              className='btn btn-custom'
+              href='https://not-teslaclone.herokuapp.com/'
+              className='btn btn-custom disabled-link'
             >
               Live
               <i className='fas fa-satellite-dish'></i>
+            </a>
+          </div>
+          <div className='footer-links'>
+            <a
+              target='blank'
+              href='https://github.com/alex4tm/tesla-clone'
+              className='btn btn-custom'
+            >
+              Code
+              <i className='fab fa-github'></i>
             </a>
           </div>
         </Modal.Footer>
@@ -92,18 +101,21 @@ function Project3(props) {
           </figure>
           <div className='projects__item__info'>
             <div className='projects__skills'>
-              <Badge className='devicon-nextjs-plain colored' title='Next.js'>
-                Next.js
-              </Badge>{" "}
+              <Badge className='devicon-nodejs-plain colored' title='NoneJS'>
+                Node.js
+              </Badge>{' '}
               <Badge className='devicon-react-plain colored' title='React'>
                 React
-              </Badge>{" "}
+              </Badge>{' '}
+              <Badge className='devicon-redux-plain colored' title='Redux'>
+                Redux
+              </Badge>{' '}
               <Badge
-                className='devicon-tailwindcss-plain colored'
-                title='Tailwind'
+                className='devicon-javascript-plain colored'
+                title='JavaScript'
               >
-                Tailwind
-              </Badge>{" "}
+                JavaScript
+              </Badge>{' '}
             </div>
             <h5 className='projects__item__text'>{props.text}</h5>
           </div>

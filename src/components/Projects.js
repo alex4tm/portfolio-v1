@@ -6,7 +6,7 @@ import Project3 from './Project3';
 import Project4 from './Project4';
 import img1 from '../images/youknowme-landing.jpg';
 import img2 from '../images/placely_landing.png';
-import img3 from '../images/tesla-landing.jpg';
+import img3 from '../images/cad-landing.png';
 import img4 from '../images/api-client-landing.jpg';
 
 function Projects() {
@@ -28,6 +28,12 @@ function Projects() {
               text='Digital guidebooks made easy.'
               path='/'
             />
+              <Project3
+                title='Cad-dev'
+                src={img3}
+                text='Portfolio website for software development company.'
+                path='/'
+              />
             <Project1
               title='YouKnowMe'
               src={img1}
@@ -38,12 +44,6 @@ function Projects() {
               title='Api-Client'
               src={img4}
               text='Easy to use, lightweight and postman alternative api-client.'
-              path='/'
-            />
-            <Project3
-              title='noTesla'
-              src={img3}
-              text='Tesla landing page clone'
               path='/'
             />
           </ul>
