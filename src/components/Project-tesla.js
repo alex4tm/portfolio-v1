@@ -35,7 +35,7 @@ function Project3(props) {
           </div>
           <div className='modal-body-info'>
             <div className='projects__skills'>
-              <Badge className='devicon-nodejs-plain colored' title='NoneJS'>
+              <Badge className='devicon-nodejs-plain colored' title='Node.js'>
                 Node.js
               </Badge>{' '}
               <Badge className='devicon-react-plain colored' title='React'>
